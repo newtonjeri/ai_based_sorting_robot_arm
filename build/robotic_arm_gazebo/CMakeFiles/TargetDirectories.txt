@@ -1,0 +1,9 @@
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo/CMakeFiles/uninstall.dir
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo/CMakeFiles/robotic_arm_gazebo_uninstall.dir
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo/CMakeFiles/test.dir
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo/CMakeFiles/edit_cache.dir
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo/CMakeFiles/rebuild_cache.dir
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo/CMakeFiles/list_install_components.dir
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo/CMakeFiles/install.dir
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo/CMakeFiles/install/local.dir
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo/CMakeFiles/install/strip.dir

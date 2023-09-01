@@ -1,0 +1,22 @@
+[0.298s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/opt/ros/humble /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup -- -j4 -l4
+[2.132s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/opt/ros/humble /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup -- -j4 -l4
+[2.417s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/opt/ros/humble /usr/bin/cmake --install /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup
+[2.457s] -- Install configuration: ""
+[2.458s] -- Execute custom install script
+[2.467s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/launch/controllers.launch.py
+[2.468s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/ament_index/resource_index/package_run_dependencies/robotic_arm_bringup
+[2.468s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/ament_index/resource_index/parent_prefix_path/robotic_arm_bringup
+[2.468s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/environment/ament_prefix_path.sh
+[2.468s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/environment/ament_prefix_path.dsv
+[2.469s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/environment/path.sh
+[2.469s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/environment/path.dsv
+[2.469s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/local_setup.bash
+[2.469s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/local_setup.sh
+[2.470s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/local_setup.zsh
+[2.470s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/local_setup.dsv
+[2.483s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/package.dsv
+[2.526s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/ament_index/resource_index/packages/robotic_arm_bringup
+[2.527s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/cmake/robotic_arm_bringupConfig.cmake
+[2.527s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/cmake/robotic_arm_bringupConfig-version.cmake
+[2.528s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/package.xml
+[2.598s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/opt/ros/humble /usr/bin/cmake --install /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup

@@ -1,0 +1,42 @@
+[0.583s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newtonjeri/ros2_ws/install/kr210_arm:/opt/ros/humble /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description -- -j4 -l4
+[1.229s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newtonjeri/ros2_ws/install/kr210_arm:/opt/ros/humble /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description -- -j4 -l4
+[1.723s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newtonjeri/ros2_ws/install/kr210_arm:/opt/ros/humble /usr/bin/cmake --install /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description
+[1.933s] -- Install configuration: ""
+[1.964s] -- Execute custom install script
+[2.024s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/base_link.stl
+[2.024s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/camera_link.stl
+[2.025s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/gripper_base.stl
+[2.025s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/link_1.stl
+[2.025s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/link_2a.stl
+[2.025s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/link_2b.stl
+[2.026s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/servomotormg996r_v2_1.stl
+[2.054s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/servomotormg996r_v2_2.stl
+[2.055s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/servomotormicro9g_v2_1.stl
+[2.055s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/servomotormicro9g_v2_2.stl
+[2.055s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/slidder_gripper_1.stl
+[2.056s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/slidder_gripper_2.stl
+[2.056s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/slider_slot.stl
+[2.057s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/waist.stl
+[2.057s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/materials.xacro
+[2.057s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robotic_arm.gazebo.xml
+[2.058s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robotic_arm.trans
+[2.058s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robotic_arm.xacro
+[2.128s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/launch/spawn_robot_launch.launch.py
+[2.129s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/launch/spawn_robotic_arm.py
+[2.135s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/lib/robotic_arm_description/spawn_robotic_arm.py
+[2.135s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/ament_index/resource_index/package_run_dependencies/robotic_arm_description
+[2.135s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/ament_index/resource_index/parent_prefix_path/robotic_arm_description
+[2.136s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/environment/ament_prefix_path.sh
+[2.136s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/environment/ament_prefix_path.dsv
+[2.137s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/environment/path.sh
+[2.138s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/environment/path.dsv
+[2.138s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.bash
+[2.138s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.sh
+[2.138s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.zsh
+[2.139s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.dsv
+[2.151s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.dsv
+[2.265s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/ament_index/resource_index/packages/robotic_arm_description
+[2.416s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/cmake/robotic_arm_descriptionConfig.cmake
+[2.417s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/cmake/robotic_arm_descriptionConfig-version.cmake
+[2.417s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.xml
+[2.420s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newtonjeri/ros2_ws/install/kr210_arm:/opt/ros/humble /usr/bin/cmake --install /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description

@@ -1,0 +1,25 @@
+[0.564s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo -- -j4 -l4
+[0.653s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo -- -j4 -l4
+[0.709s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo
+[0.733s] -- Install configuration: ""
+[0.735s] -- Execute custom install script
+[0.742s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/launch/display.launch.py
+[0.743s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/launch/robotic_arm_launch.py
+[0.744s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/launch/start_world_launch.py
+[0.746s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/worlds/robotic_arm_empty.world
+[0.749s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/ament_index/resource_index/package_run_dependencies/robotic_arm_gazebo
+[0.750s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/ament_index/resource_index/parent_prefix_path/robotic_arm_gazebo
+[0.752s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/environment/ament_prefix_path.sh
+[0.752s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/environment/ament_prefix_path.dsv
+[0.754s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/environment/path.sh
+[0.754s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/environment/path.dsv
+[0.755s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/local_setup.bash
+[0.756s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/local_setup.sh
+[0.758s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/local_setup.zsh
+[0.760s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/local_setup.dsv
+[0.760s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/package.dsv
+[0.799s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/ament_index/resource_index/packages/robotic_arm_gazebo
+[0.805s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/cmake/robotic_arm_gazeboConfig.cmake
+[0.807s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/cmake/robotic_arm_gazeboConfig-version.cmake
+[0.808s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/package.xml
+[0.856s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo

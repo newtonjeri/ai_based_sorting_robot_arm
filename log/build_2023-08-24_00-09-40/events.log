@@ -1,0 +1,942 @@
+[0.000000] (-) TimerEvent: {}
+[0.000328] (robotic_arm_bringup) JobQueued: {'identifier': 'robotic_arm_bringup', 'dependencies': OrderedDict()}
+[0.000412] (robotic_arm_description) JobQueued: {'identifier': 'robotic_arm_description', 'dependencies': OrderedDict()}
+[0.000463] (robotic_arm_gazebo) JobQueued: {'identifier': 'robotic_arm_gazebo', 'dependencies': OrderedDict()}
+[0.000508] (robotic_arm_bringup) JobStarted: {'identifier': 'robotic_arm_bringup'}
+[0.081280] (robotic_arm_description) JobStarted: {'identifier': 'robotic_arm_description'}
+[0.086247] (-) TimerEvent: {}
+[0.116374] (robotic_arm_gazebo) JobStarted: {'identifier': 'robotic_arm_gazebo'}
+[0.171750] (robotic_arm_bringup) JobProgress: {'identifier': 'robotic_arm_bringup', 'progress': 'cmake'}
+[0.174067] (robotic_arm_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup'], 'cwd': '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'newtonjeri'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/newtonjeri'), ('OLDPWD', '/home/newtonjeri/ai_based_sorting_robot_arm/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'newtonjeri'), ('NAME', 'NewtonsPC'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/newtonjeri/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/newto/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/newto/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/newto/AppData/Local/GitHubDesktop/bin:/mnt/c/OpenSim 4.2/bin:/snap/bin'), ('WT_SESSION', '6584a8a0-82c5-4ad9-824c-b27eea6fd101'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup'), ('PICO_SDK_PATH', '/home/newtonjeri/pico-sdk'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.187301] (-) TimerEvent: {}
+[0.192445] (robotic_arm_description) JobProgress: {'identifier': 'robotic_arm_description', 'progress': 'cmake'}
+[0.202587] (robotic_arm_description) Command: {'cmd': ['/usr/bin/cmake', '/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description'], 'cwd': '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'newtonjeri'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/newtonjeri'), ('OLDPWD', '/home/newtonjeri/ai_based_sorting_robot_arm/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'newtonjeri'), ('NAME', 'NewtonsPC'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/newtonjeri/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/newto/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/newto/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/newto/AppData/Local/GitHubDesktop/bin:/mnt/c/OpenSim 4.2/bin:/snap/bin'), ('WT_SESSION', '6584a8a0-82c5-4ad9-824c-b27eea6fd101'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description'), ('PICO_SDK_PATH', '/home/newtonjeri/pico-sdk'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.246090] (robotic_arm_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.298976] (robotic_arm_gazebo) JobProgress: {'identifier': 'robotic_arm_gazebo', 'progress': 'cmake'}
+[0.299119] (-) TimerEvent: {}
+[0.299465] (robotic_arm_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_gazebo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo'], 'cwd': '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'newtonjeri'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/newtonjeri'), ('OLDPWD', '/home/newtonjeri/ai_based_sorting_robot_arm/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'newtonjeri'), ('NAME', 'NewtonsPC'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/newtonjeri/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/newto/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/newto/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/newto/AppData/Local/GitHubDesktop/bin:/mnt/c/OpenSim 4.2/bin:/snap/bin'), ('WT_SESSION', '6584a8a0-82c5-4ad9-824c-b27eea6fd101'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo'), ('PICO_SDK_PATH', '/home/newtonjeri/pico-sdk'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.301413] (robotic_arm_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399263] (-) TimerEvent: {}
+[0.402916] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499403] (-) TimerEvent: {}
+[0.599932] (-) TimerEvent: {}
+[0.700373] (-) TimerEvent: {}
+[0.800871] (-) TimerEvent: {}
+[0.906625] (-) TimerEvent: {}
+[0.910927] (robotic_arm_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.987704] (robotic_arm_bringup) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[1.006739] (-) TimerEvent: {}
+[1.107260] (-) TimerEvent: {}
+[1.207859] (-) TimerEvent: {}
+[1.308862] (-) TimerEvent: {}
+[1.379805] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.398524] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.409014] (-) TimerEvent: {}
+[1.513164] (-) TimerEvent: {}
+[1.581430] (robotic_arm_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.613374] (-) TimerEvent: {}
+[1.631315] (robotic_arm_description) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[1.718226] (-) TimerEvent: {}
+[1.819329] (-) TimerEvent: {}
+[1.921458] (-) TimerEvent: {}
+[2.024463] (-) TimerEvent: {}
+[2.125033] (-) TimerEvent: {}
+[2.226192] (-) TimerEvent: {}
+[2.326722] (-) TimerEvent: {}
+[2.428858] (-) TimerEvent: {}
+[2.539876] (-) TimerEvent: {}
+[2.645041] (-) TimerEvent: {}
+[2.745788] (-) TimerEvent: {}
+[2.850228] (-) TimerEvent: {}
+[2.954703] (-) TimerEvent: {}
+[2.999095] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.047272] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.054304] (-) TimerEvent: {}
+[3.116244] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.154453] (-) TimerEvent: {}
+[3.222740] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.254600] (-) TimerEvent: {}
+[3.338393] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.354760] (-) TimerEvent: {}
+[3.455426] (-) TimerEvent: {}
+[3.556602] (-) TimerEvent: {}
+[3.657840] (-) TimerEvent: {}
+[3.758524] (-) TimerEvent: {}
+[3.867761] (-) TimerEvent: {}
+[3.932301] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.946897] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.967897] (-) TimerEvent: {}
+[4.068573] (-) TimerEvent: {}
+[4.172651] (-) TimerEvent: {}
+[4.274692] (-) TimerEvent: {}
+[4.378638] (-) TimerEvent: {}
+[4.479960] (-) TimerEvent: {}
+[4.580575] (-) TimerEvent: {}
+[4.682137] (-) TimerEvent: {}
+[4.783030] (-) TimerEvent: {}
+[4.883648] (-) TimerEvent: {}
+[4.985705] (-) TimerEvent: {}
+[5.086238] (-) TimerEvent: {}
+[5.189526] (-) TimerEvent: {}
+[5.290047] (-) TimerEvent: {}
+[5.390645] (-) TimerEvent: {}
+[5.491229] (-) TimerEvent: {}
+[5.592865] (-) TimerEvent: {}
+[5.695567] (-) TimerEvent: {}
+[5.796537] (-) TimerEvent: {}
+[5.900846] (-) TimerEvent: {}
+[6.001686] (-) TimerEvent: {}
+[6.102286] (-) TimerEvent: {}
+[6.204121] (-) TimerEvent: {}
+[6.304654] (-) TimerEvent: {}
+[6.406043] (-) TimerEvent: {}
+[6.511310] (-) TimerEvent: {}
+[6.612025] (-) TimerEvent: {}
+[6.724169] (-) TimerEvent: {}
+[6.827234] (-) TimerEvent: {}
+[6.934256] (-) TimerEvent: {}
+[7.035181] (-) TimerEvent: {}
+[7.135788] (-) TimerEvent: {}
+[7.236913] (-) TimerEvent: {}
+[7.338026] (-) TimerEvent: {}
+[7.444568] (-) TimerEvent: {}
+[7.545108] (-) TimerEvent: {}
+[7.654813] (-) TimerEvent: {}
+[7.755595] (-) TimerEvent: {}
+[7.857295] (-) TimerEvent: {}
+[7.958081] (-) TimerEvent: {}
+[8.059408] (-) TimerEvent: {}
+[8.159905] (-) TimerEvent: {}
+[8.262600] (-) TimerEvent: {}
+[8.366424] (-) TimerEvent: {}
+[8.466995] (-) TimerEvent: {}
+[8.570945] (-) TimerEvent: {}
+[8.678957] (-) TimerEvent: {}
+[8.779842] (-) TimerEvent: {}
+[8.883291] (-) TimerEvent: {}
+[8.983781] (-) TimerEvent: {}
+[9.089679] (-) TimerEvent: {}
+[9.192734] (-) TimerEvent: {}
+[9.299180] (-) TimerEvent: {}
+[9.399799] (-) TimerEvent: {}
+[9.500604] (-) TimerEvent: {}
+[9.601425] (-) TimerEvent: {}
+[9.705430] (-) TimerEvent: {}
+[9.808209] (-) TimerEvent: {}
+[9.915991] (-) TimerEvent: {}
+[10.016564] (-) TimerEvent: {}
+[10.117209] (-) TimerEvent: {}
+[10.217811] (-) TimerEvent: {}
+[10.321507] (-) TimerEvent: {}
+[10.422267] (-) TimerEvent: {}
+[10.529994] (-) TimerEvent: {}
+[10.633615] (-) TimerEvent: {}
+[10.734133] (-) TimerEvent: {}
+[10.834740] (-) TimerEvent: {}
+[10.935898] (-) TimerEvent: {}
+[11.038021] (-) TimerEvent: {}
+[11.139816] (-) TimerEvent: {}
+[11.257293] (-) TimerEvent: {}
+[11.365920] (-) TimerEvent: {}
+[11.466521] (-) TimerEvent: {}
+[11.567130] (-) TimerEvent: {}
+[11.670610] (-) TimerEvent: {}
+[11.777065] (-) TimerEvent: {}
+[11.885965] (-) TimerEvent: {}
+[11.991981] (-) TimerEvent: {}
+[12.093089] (-) TimerEvent: {}
+[12.193908] (-) TimerEvent: {}
+[12.298910] (-) TimerEvent: {}
+[12.399557] (-) TimerEvent: {}
+[12.500273] (-) TimerEvent: {}
+[12.605477] (-) TimerEvent: {}
+[12.707654] (-) TimerEvent: {}
+[12.820734] (-) TimerEvent: {}
+[12.930615] (-) TimerEvent: {}
+[13.032520] (-) TimerEvent: {}
+[13.139454] (-) TimerEvent: {}
+[13.239965] (-) TimerEvent: {}
+[13.342490] (-) TimerEvent: {}
+[13.447485] (-) TimerEvent: {}
+[13.548025] (-) TimerEvent: {}
+[13.649819] (-) TimerEvent: {}
+[13.753378] (-) TimerEvent: {}
+[13.855037] (-) TimerEvent: {}
+[13.960465] (-) TimerEvent: {}
+[14.061957] (-) TimerEvent: {}
+[14.162465] (-) TimerEvent: {}
+[14.264853] (-) TimerEvent: {}
+[14.365895] (-) TimerEvent: {}
+[14.466792] (-) TimerEvent: {}
+[14.567908] (-) TimerEvent: {}
+[14.668942] (-) TimerEvent: {}
+[14.769527] (-) TimerEvent: {}
+[14.801113] (robotic_arm_bringup) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[14.802582] (robotic_arm_bringup) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.2 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[14.869716] (-) TimerEvent: {}
+[14.900522] (robotic_arm_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[14.969841] (-) TimerEvent: {}
+[14.972160] (robotic_arm_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[15.029710] (robotic_arm_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[15.071723] (-) TimerEvent: {}
+[15.168239] (robotic_arm_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.171839] (-) TimerEvent: {}
+[15.272324] (-) TimerEvent: {}
+[15.349978] (robotic_arm_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.356067] (robotic_arm_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.368537] (robotic_arm_description) StdoutLine: {'line': b'-- Generating done\n'}
+[15.372458] (-) TimerEvent: {}
+[15.375169] (robotic_arm_description) StdoutLine: {'line': b'-- Build files have been written to: /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description\n'}
+[15.405871] (robotic_arm_description) CommandEnded: {'returncode': 0}
+[15.406714] (robotic_arm_description) JobProgress: {'identifier': 'robotic_arm_description', 'progress': 'build'}
+[15.406829] (robotic_arm_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description', '--', '-j4', '-l4'], 'cwd': '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'newtonjeri'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/newtonjeri'), ('OLDPWD', '/home/newtonjeri/ai_based_sorting_robot_arm/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'newtonjeri'), ('NAME', 'NewtonsPC'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/newtonjeri/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/newto/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/newto/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/newto/AppData/Local/GitHubDesktop/bin:/mnt/c/OpenSim 4.2/bin:/snap/bin'), ('WT_SESSION', '6584a8a0-82c5-4ad9-824c-b27eea6fd101'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description'), ('PICO_SDK_PATH', '/home/newtonjeri/pico-sdk'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[15.478991] (-) TimerEvent: {}
+[15.580017] (-) TimerEvent: {}
+[15.590460] (robotic_arm_description) CommandEnded: {'returncode': 0}
+[15.680477] (-) TimerEvent: {}
+[15.763208] (robotic_arm_description) JobProgress: {'identifier': 'robotic_arm_description', 'progress': 'install'}
+[15.780601] (-) TimerEvent: {}
+[15.794647] (robotic_arm_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description'], 'cwd': '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'newtonjeri'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/newtonjeri'), ('OLDPWD', '/home/newtonjeri/ai_based_sorting_robot_arm/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'newtonjeri'), ('NAME', 'NewtonsPC'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/newtonjeri/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/newto/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/newto/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/newto/AppData/Local/GitHubDesktop/bin:/mnt/c/OpenSim 4.2/bin:/snap/bin'), ('WT_SESSION', '6584a8a0-82c5-4ad9-824c-b27eea6fd101'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description'), ('PICO_SDK_PATH', '/home/newtonjeri/pico-sdk'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[15.818111] (robotic_arm_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.819903] (robotic_arm_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.821558] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/base_link.stl\n'}
+[15.861490] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/camera_link_v1_1.stl\n'}
+[15.880758] (-) TimerEvent: {}
+[15.909012] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/gripper_base_v5_1.stl\n'}
+[15.949060] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/link_1_v2_1.stl\n'}
+[15.981041] (-) TimerEvent: {}
+[15.983115] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/link_2a_v2_1.stl\n'}
+[16.018747] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/link_2b_v2_1.stl\n'}
+[16.045758] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/slidder_gripper_v1_1.stl\n'}
+[16.083783] (-) TimerEvent: {}
+[16.086875] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/slidder_gripper_v1_2.stl\n'}
+[16.120004] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/slider_slot_v1_1.stl\n'}
+[16.154918] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/meshes/waist_v3_1.stl\n'}
+[16.186077] (-) TimerEvent: {}
+[16.187566] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/materials.xacro\n'}
+[16.215645] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robotic_arm.trans\n'}
+[16.249398] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robotic_arm.xacro\n'}
+[16.286635] (-) TimerEvent: {}
+[16.338001] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/launch/spawn_robot_launch.launch.py\n'}
+[16.373252] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/launch/spawn_robotic_arm.py\n'}
+[16.386804] (-) TimerEvent: {}
+[16.398010] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/lib/robotic_arm_description/spawn_robotic_arm.py\n'}
+[16.465104] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/ament_index/resource_index/package_run_dependencies/robotic_arm_description\n'}
+[16.486950] (-) TimerEvent: {}
+[16.539233] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/ament_index/resource_index/parent_prefix_path/robotic_arm_description\n'}
+[16.587463] (-) TimerEvent: {}
+[16.599841] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/environment/ament_prefix_path.sh\n'}
+[16.645534] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/environment/ament_prefix_path.dsv\n'}
+[16.678533] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/environment/path.sh\n'}
+[16.687629] (-) TimerEvent: {}
+[16.709605] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/environment/path.dsv\n'}
+[16.741276] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.bash\n'}
+[16.768204] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.sh\n'}
+[16.787758] (-) TimerEvent: {}
+[16.797362] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.zsh\n'}
+[16.835174] (robotic_arm_bringup) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[16.835452] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.dsv\n'}
+[16.847595] (robotic_arm_bringup) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[16.868789] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.dsv\n'}
+[16.887957] (-) TimerEvent: {}
+[16.909530] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/ament_index/resource_index/packages/robotic_arm_description\n'}
+[16.935713] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/cmake/robotic_arm_descriptionConfig.cmake\n'}
+[16.965537] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/cmake/robotic_arm_descriptionConfig-version.cmake\n'}
+[16.988073] (-) TimerEvent: {}
+[16.997882] (robotic_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description/share/robotic_arm_description/package.xml\n'}
+[17.049725] (robotic_arm_description) CommandEnded: {'returncode': 0}
+[17.094324] (-) TimerEvent: {}
+[17.194923] (-) TimerEvent: {}
+[17.295443] (-) TimerEvent: {}
+[17.413881] (-) TimerEvent: {}
+[17.445020] (robotic_arm_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[17.464429] (robotic_arm_bringup) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[17.509531] (robotic_arm_description) JobEnded: {'identifier': 'robotic_arm_description', 'rc': 0}
+[17.519470] (-) TimerEvent: {}
+[17.620250] (-) TimerEvent: {}
+[17.721010] (-) TimerEvent: {}
+[17.821611] (-) TimerEvent: {}
+[17.922095] (-) TimerEvent: {}
+[18.023134] (-) TimerEvent: {}
+[18.125213] (-) TimerEvent: {}
+[18.226403] (-) TimerEvent: {}
+[18.337622] (-) TimerEvent: {}
+[18.438108] (-) TimerEvent: {}
+[18.538606] (-) TimerEvent: {}
+[18.639477] (-) TimerEvent: {}
+[18.740220] (-) TimerEvent: {}
+[18.845207] (-) TimerEvent: {}
+[18.945778] (-) TimerEvent: {}
+[19.046289] (-) TimerEvent: {}
+[19.150063] (-) TimerEvent: {}
+[19.250558] (-) TimerEvent: {}
+[19.351139] (-) TimerEvent: {}
+[19.458480] (-) TimerEvent: {}
+[19.559408] (-) TimerEvent: {}
+[19.660659] (-) TimerEvent: {}
+[19.761752] (-) TimerEvent: {}
+[19.866254] (-) TimerEvent: {}
+[19.968968] (-) TimerEvent: {}
+[20.070629] (-) TimerEvent: {}
+[20.171195] (-) TimerEvent: {}
+[20.272070] (-) TimerEvent: {}
+[20.372809] (-) TimerEvent: {}
+[20.475730] (-) TimerEvent: {}
+[20.576530] (-) TimerEvent: {}
+[20.677055] (-) TimerEvent: {}
+[20.777722] (-) TimerEvent: {}
+[20.878440] (-) TimerEvent: {}
+[20.979303] (-) TimerEvent: {}
+[21.079997] (-) TimerEvent: {}
+[21.180603] (-) TimerEvent: {}
+[21.281200] (-) TimerEvent: {}
+[21.387783] (-) TimerEvent: {}
+[21.488242] (-) TimerEvent: {}
+[21.589167] (-) TimerEvent: {}
+[21.691275] (-) TimerEvent: {}
+[21.791833] (-) TimerEvent: {}
+[21.892300] (-) TimerEvent: {}
+[21.995442] (-) TimerEvent: {}
+[22.099049] (-) TimerEvent: {}
+[22.202298] (-) TimerEvent: {}
+[22.302816] (-) TimerEvent: {}
+[22.403356] (-) TimerEvent: {}
+[22.505709] (-) TimerEvent: {}
+[22.610688] (-) TimerEvent: {}
+[22.711255] (-) TimerEvent: {}
+[22.812627] (-) TimerEvent: {}
+[22.913143] (-) TimerEvent: {}
+[23.015279] (-) TimerEvent: {}
+[23.115901] (-) TimerEvent: {}
+[23.218229] (-) TimerEvent: {}
+[23.324153] (-) TimerEvent: {}
+[23.426935] (-) TimerEvent: {}
+[23.528974] (-) TimerEvent: {}
+[23.638592] (-) TimerEvent: {}
+[23.739076] (-) TimerEvent: {}
+[23.841742] (-) TimerEvent: {}
+[23.952062] (-) TimerEvent: {}
+[24.053593] (-) TimerEvent: {}
+[24.154185] (-) TimerEvent: {}
+[24.265816] (-) TimerEvent: {}
+[24.366934] (-) TimerEvent: {}
+[24.468116] (-) TimerEvent: {}
+[24.568546] (-) TimerEvent: {}
+[24.668993] (-) TimerEvent: {}
+[24.769787] (-) TimerEvent: {}
+[24.872724] (-) TimerEvent: {}
+[24.979449] (-) TimerEvent: {}
+[25.080841] (-) TimerEvent: {}
+[25.182249] (-) TimerEvent: {}
+[25.286544] (-) TimerEvent: {}
+[25.387148] (-) TimerEvent: {}
+[25.487926] (-) TimerEvent: {}
+[25.588388] (-) TimerEvent: {}
+[25.690240] (-) TimerEvent: {}
+[25.790728] (-) TimerEvent: {}
+[25.891441] (-) TimerEvent: {}
+[25.995080] (-) TimerEvent: {}
+[26.096524] (-) TimerEvent: {}
+[26.197272] (-) TimerEvent: {}
+[26.298026] (-) TimerEvent: {}
+[26.398724] (-) TimerEvent: {}
+[26.499837] (-) TimerEvent: {}
+[26.601978] (-) TimerEvent: {}
+[26.706257] (-) TimerEvent: {}
+[26.807169] (-) TimerEvent: {}
+[26.907865] (-) TimerEvent: {}
+[27.008388] (-) TimerEvent: {}
+[27.109758] (-) TimerEvent: {}
+[27.215460] (-) TimerEvent: {}
+[27.317139] (-) TimerEvent: {}
+[27.418029] (-) TimerEvent: {}
+[27.520291] (-) TimerEvent: {}
+[27.620900] (-) TimerEvent: {}
+[27.722366] (-) TimerEvent: {}
+[27.826513] (-) TimerEvent: {}
+[27.927770] (-) TimerEvent: {}
+[28.029207] (-) TimerEvent: {}
+[28.135540] (-) TimerEvent: {}
+[28.238703] (-) TimerEvent: {}
+[28.342112] (-) TimerEvent: {}
+[28.446739] (-) TimerEvent: {}
+[28.548577] (-) TimerEvent: {}
+[28.650005] (-) TimerEvent: {}
+[28.753007] (-) TimerEvent: {}
+[28.853964] (-) TimerEvent: {}
+[28.954570] (-) TimerEvent: {}
+[29.055174] (-) TimerEvent: {}
+[29.155678] (-) TimerEvent: {}
+[29.256292] (-) TimerEvent: {}
+[29.367051] (-) TimerEvent: {}
+[29.471065] (-) TimerEvent: {}
+[29.576838] (-) TimerEvent: {}
+[29.677355] (-) TimerEvent: {}
+[29.777871] (-) TimerEvent: {}
+[29.884380] (-) TimerEvent: {}
+[29.985309] (-) TimerEvent: {}
+[30.086027] (-) TimerEvent: {}
+[30.186842] (-) TimerEvent: {}
+[30.288987] (-) TimerEvent: {}
+[30.392610] (-) TimerEvent: {}
+[30.493049] (-) TimerEvent: {}
+[30.593537] (-) TimerEvent: {}
+[30.695304] (-) TimerEvent: {}
+[30.796518] (-) TimerEvent: {}
+[30.896984] (-) TimerEvent: {}
+[30.997454] (-) TimerEvent: {}
+[31.098483] (-) TimerEvent: {}
+[31.202828] (-) TimerEvent: {}
+[31.303415] (-) TimerEvent: {}
+[31.404162] (-) TimerEvent: {}
+[31.505152] (-) TimerEvent: {}
+[31.606034] (-) TimerEvent: {}
+[31.706632] (-) TimerEvent: {}
+[31.807110] (-) TimerEvent: {}
+[31.917437] (-) TimerEvent: {}
+[32.018044] (-) TimerEvent: {}
+[32.119713] (-) TimerEvent: {}
+[32.221296] (-) TimerEvent: {}
+[32.321743] (-) TimerEvent: {}
+[32.422319] (-) TimerEvent: {}
+[32.524683] (-) TimerEvent: {}
+[32.629074] (-) TimerEvent: {}
+[32.734249] (-) TimerEvent: {}
+[32.835633] (-) TimerEvent: {}
+[32.936158] (-) TimerEvent: {}
+[33.036823] (-) TimerEvent: {}
+[33.141301] (-) TimerEvent: {}
+[33.248211] (-) TimerEvent: {}
+[33.348762] (-) TimerEvent: {}
+[33.449701] (-) TimerEvent: {}
+[33.550389] (-) TimerEvent: {}
+[33.650878] (-) TimerEvent: {}
+[33.751590] (-) TimerEvent: {}
+[33.852284] (-) TimerEvent: {}
+[33.952866] (-) TimerEvent: {}
+[34.054025] (-) TimerEvent: {}
+[34.154503] (-) TimerEvent: {}
+[34.255071] (-) TimerEvent: {}
+[34.355657] (-) TimerEvent: {}
+[34.456428] (-) TimerEvent: {}
+[34.557748] (-) TimerEvent: {}
+[34.658320] (-) TimerEvent: {}
+[34.758858] (-) TimerEvent: {}
+[34.859461] (-) TimerEvent: {}
+[34.960008] (-) TimerEvent: {}
+[35.060651] (-) TimerEvent: {}
+[35.161364] (-) TimerEvent: {}
+[35.261859] (-) TimerEvent: {}
+[35.363189] (-) TimerEvent: {}
+[35.465333] (-) TimerEvent: {}
+[35.566186] (-) TimerEvent: {}
+[35.669065] (-) TimerEvent: {}
+[35.771505] (-) TimerEvent: {}
+[35.872010] (-) TimerEvent: {}
+[35.972526] (-) TimerEvent: {}
+[36.075108] (-) TimerEvent: {}
+[36.175665] (-) TimerEvent: {}
+[36.276122] (-) TimerEvent: {}
+[36.376631] (-) TimerEvent: {}
+[36.477191] (-) TimerEvent: {}
+[36.577735] (-) TimerEvent: {}
+[36.678348] (-) TimerEvent: {}
+[36.779269] (-) TimerEvent: {}
+[36.883185] (-) TimerEvent: {}
+[36.983857] (-) TimerEvent: {}
+[37.084385] (-) TimerEvent: {}
+[37.184996] (-) TimerEvent: {}
+[37.286018] (-) TimerEvent: {}
+[37.387351] (-) TimerEvent: {}
+[37.490156] (-) TimerEvent: {}
+[37.590664] (-) TimerEvent: {}
+[37.691340] (-) TimerEvent: {}
+[37.792225] (-) TimerEvent: {}
+[37.893383] (-) TimerEvent: {}
+[37.993992] (-) TimerEvent: {}
+[38.095400] (-) TimerEvent: {}
+[38.196586] (-) TimerEvent: {}
+[38.305287] (-) TimerEvent: {}
+[38.405865] (-) TimerEvent: {}
+[38.506369] (-) TimerEvent: {}
+[38.609614] (-) TimerEvent: {}
+[38.717498] (-) TimerEvent: {}
+[38.818090] (-) TimerEvent: {}
+[38.918585] (-) TimerEvent: {}
+[39.019170] (-) TimerEvent: {}
+[39.125188] (-) TimerEvent: {}
+[39.225759] (-) TimerEvent: {}
+[39.327085] (-) TimerEvent: {}
+[39.427943] (-) TimerEvent: {}
+[39.530863] (-) TimerEvent: {}
+[39.634589] (-) TimerEvent: {}
+[39.735098] (-) TimerEvent: {}
+[39.835830] (-) TimerEvent: {}
+[39.936372] (-) TimerEvent: {}
+[40.036851] (-) TimerEvent: {}
+[40.137327] (-) TimerEvent: {}
+[40.237911] (-) TimerEvent: {}
+[40.338481] (-) TimerEvent: {}
+[40.451361] (-) TimerEvent: {}
+[40.551978] (-) TimerEvent: {}
+[40.657600] (-) TimerEvent: {}
+[40.759114] (-) TimerEvent: {}
+[40.861332] (-) TimerEvent: {}
+[40.969842] (-) TimerEvent: {}
+[41.071535] (-) TimerEvent: {}
+[41.172505] (-) TimerEvent: {}
+[41.274411] (-) TimerEvent: {}
+[41.374926] (-) TimerEvent: {}
+[41.475403] (-) TimerEvent: {}
+[41.577475] (-) TimerEvent: {}
+[41.678260] (-) TimerEvent: {}
+[41.778729] (-) TimerEvent: {}
+[41.879269] (-) TimerEvent: {}
+[41.980284] (-) TimerEvent: {}
+[42.081467] (-) TimerEvent: {}
+[42.183732] (-) TimerEvent: {}
+[42.284389] (-) TimerEvent: {}
+[42.388159] (-) TimerEvent: {}
+[42.493627] (-) TimerEvent: {}
+[42.601382] (-) TimerEvent: {}
+[42.707854] (-) TimerEvent: {}
+[42.808423] (-) TimerEvent: {}
+[42.916397] (-) TimerEvent: {}
+[43.016894] (-) TimerEvent: {}
+[43.119612] (-) TimerEvent: {}
+[43.220119] (-) TimerEvent: {}
+[43.320694] (-) TimerEvent: {}
+[43.439552] (-) TimerEvent: {}
+[43.543341] (-) TimerEvent: {}
+[43.645531] (-) TimerEvent: {}
+[43.748079] (-) TimerEvent: {}
+[43.848783] (-) TimerEvent: {}
+[43.949440] (-) TimerEvent: {}
+[44.050021] (-) TimerEvent: {}
+[44.150544] (-) TimerEvent: {}
+[44.250994] (-) TimerEvent: {}
+[44.352358] (-) TimerEvent: {}
+[44.455267] (-) TimerEvent: {}
+[44.556166] (-) TimerEvent: {}
+[44.659043] (-) TimerEvent: {}
+[44.759524] (-) TimerEvent: {}
+[44.860190] (-) TimerEvent: {}
+[44.965431] (-) TimerEvent: {}
+[45.066773] (-) TimerEvent: {}
+[45.167605] (-) TimerEvent: {}
+[45.271244] (-) TimerEvent: {}
+[45.376125] (-) TimerEvent: {}
+[45.476858] (-) TimerEvent: {}
+[45.583405] (-) TimerEvent: {}
+[45.683984] (-) TimerEvent: {}
+[45.785008] (-) TimerEvent: {}
+[45.886046] (-) TimerEvent: {}
+[45.986666] (-) TimerEvent: {}
+[46.087436] (-) TimerEvent: {}
+[46.187912] (-) TimerEvent: {}
+[46.288764] (-) TimerEvent: {}
+[46.389551] (-) TimerEvent: {}
+[46.492586] (-) TimerEvent: {}
+[46.593359] (-) TimerEvent: {}
+[46.697140] (-) TimerEvent: {}
+[46.797704] (-) TimerEvent: {}
+[46.898788] (-) TimerEvent: {}
+[47.004952] (-) TimerEvent: {}
+[47.107450] (-) TimerEvent: {}
+[47.207906] (-) TimerEvent: {}
+[47.308348] (-) TimerEvent: {}
+[47.409291] (-) TimerEvent: {}
+[47.510110] (-) TimerEvent: {}
+[47.610743] (-) TimerEvent: {}
+[47.711253] (-) TimerEvent: {}
+[47.815352] (-) TimerEvent: {}
+[47.916444] (-) TimerEvent: {}
+[48.016970] (-) TimerEvent: {}
+[48.117531] (-) TimerEvent: {}
+[48.219517] (-) TimerEvent: {}
+[48.321908] (-) TimerEvent: {}
+[48.422741] (-) TimerEvent: {}
+[48.526089] (-) TimerEvent: {}
+[48.628652] (-) TimerEvent: {}
+[48.736146] (-) TimerEvent: {}
+[48.839127] (-) TimerEvent: {}
+[48.950206] (-) TimerEvent: {}
+[49.051084] (-) TimerEvent: {}
+[49.151773] (-) TimerEvent: {}
+[49.255872] (-) TimerEvent: {}
+[49.356500] (-) TimerEvent: {}
+[49.460819] (-) TimerEvent: {}
+[49.564876] (-) TimerEvent: {}
+[49.665404] (-) TimerEvent: {}
+[49.766926] (-) TimerEvent: {}
+[49.867483] (-) TimerEvent: {}
+[49.967956] (-) TimerEvent: {}
+[50.068606] (-) TimerEvent: {}
+[50.169244] (-) TimerEvent: {}
+[50.272108] (-) TimerEvent: {}
+[50.372645] (-) TimerEvent: {}
+[50.474598] (-) TimerEvent: {}
+[50.576098] (-) TimerEvent: {}
+[50.677288] (-) TimerEvent: {}
+[50.777772] (-) TimerEvent: {}
+[50.884654] (-) TimerEvent: {}
+[50.987101] (-) TimerEvent: {}
+[51.087687] (-) TimerEvent: {}
+[51.188190] (-) TimerEvent: {}
+[51.288770] (-) TimerEvent: {}
+[51.389373] (-) TimerEvent: {}
+[51.501919] (-) TimerEvent: {}
+[51.602399] (-) TimerEvent: {}
+[51.709812] (-) TimerEvent: {}
+[51.811375] (-) TimerEvent: {}
+[51.911932] (-) TimerEvent: {}
+[52.013743] (-) TimerEvent: {}
+[52.115225] (-) TimerEvent: {}
+[52.221029] (-) TimerEvent: {}
+[52.325892] (-) TimerEvent: {}
+[52.427217] (-) TimerEvent: {}
+[52.527861] (-) TimerEvent: {}
+[52.628885] (-) TimerEvent: {}
+[52.732341] (-) TimerEvent: {}
+[52.832908] (-) TimerEvent: {}
+[52.933370] (-) TimerEvent: {}
+[53.039330] (-) TimerEvent: {}
+[53.143302] (-) TimerEvent: {}
+[53.246028] (-) TimerEvent: {}
+[53.346519] (-) TimerEvent: {}
+[53.447090] (-) TimerEvent: {}
+[53.549595] (-) TimerEvent: {}
+[53.650275] (-) TimerEvent: {}
+[53.751167] (-) TimerEvent: {}
+[53.852312] (-) TimerEvent: {}
+[53.953538] (-) TimerEvent: {}
+[54.054320] (-) TimerEvent: {}
+[54.155039] (-) TimerEvent: {}
+[54.255817] (-) TimerEvent: {}
+[54.358339] (-) TimerEvent: {}
+[54.458919] (-) TimerEvent: {}
+[54.559595] (-) TimerEvent: {}
+[54.670030] (-) TimerEvent: {}
+[54.770807] (-) TimerEvent: {}
+[54.871621] (-) TimerEvent: {}
+[54.974464] (-) TimerEvent: {}
+[55.077266] (-) TimerEvent: {}
+[55.178494] (-) TimerEvent: {}
+[55.279005] (-) TimerEvent: {}
+[55.380203] (-) TimerEvent: {}
+[55.482459] (-) TimerEvent: {}
+[55.584683] (-) TimerEvent: {}
+[55.686023] (-) TimerEvent: {}
+[55.787201] (-) TimerEvent: {}
+[55.887706] (-) TimerEvent: {}
+[55.989031] (-) TimerEvent: {}
+[56.091167] (-) TimerEvent: {}
+[56.195292] (-) TimerEvent: {}
+[56.295887] (-) TimerEvent: {}
+[56.396594] (-) TimerEvent: {}
+[56.497339] (-) TimerEvent: {}
+[56.597801] (-) TimerEvent: {}
+[56.699391] (-) TimerEvent: {}
+[56.800670] (-) TimerEvent: {}
+[56.901113] (-) TimerEvent: {}
+[57.001704] (-) TimerEvent: {}
+[57.103881] (-) TimerEvent: {}
+[57.207821] (-) TimerEvent: {}
+[57.309101] (-) TimerEvent: {}
+[57.411061] (-) TimerEvent: {}
+[57.513725] (-) TimerEvent: {}
+[57.618704] (-) TimerEvent: {}
+[57.719248] (-) TimerEvent: {}
+[57.819938] (-) TimerEvent: {}
+[57.921414] (-) TimerEvent: {}
+[58.026382] (-) TimerEvent: {}
+[58.129570] (-) TimerEvent: {}
+[58.231130] (-) TimerEvent: {}
+[58.331989] (-) TimerEvent: {}
+[58.438889] (-) TimerEvent: {}
+[58.543848] (-) TimerEvent: {}
+[58.644699] (-) TimerEvent: {}
+[58.745273] (-) TimerEvent: {}
+[58.846286] (-) TimerEvent: {}
+[58.947947] (-) TimerEvent: {}
+[59.048513] (-) TimerEvent: {}
+[59.149831] (-) TimerEvent: {}
+[59.251039] (-) TimerEvent: {}
+[59.360301] (-) TimerEvent: {}
+[59.461206] (-) TimerEvent: {}
+[59.561688] (-) TimerEvent: {}
+[59.663361] (-) TimerEvent: {}
+[59.764365] (-) TimerEvent: {}
+[59.864999] (-) TimerEvent: {}
+[59.965685] (-) TimerEvent: {}
+[60.066711] (-) TimerEvent: {}
+[60.171012] (-) TimerEvent: {}
+[60.272429] (-) TimerEvent: {}
+[60.374313] (-) TimerEvent: {}
+[60.476529] (-) TimerEvent: {}
+[60.578151] (-) TimerEvent: {}
+[60.678660] (-) TimerEvent: {}
+[60.779915] (-) TimerEvent: {}
+[60.880435] (-) TimerEvent: {}
+[60.980944] (-) TimerEvent: {}
+[61.082215] (-) TimerEvent: {}
+[61.183511] (-) TimerEvent: {}
+[61.284355] (-) TimerEvent: {}
+[61.385338] (-) TimerEvent: {}
+[61.488214] (-) TimerEvent: {}
+[61.588909] (-) TimerEvent: {}
+[61.693099] (-) TimerEvent: {}
+[61.793666] (-) TimerEvent: {}
+[61.896821] (-) TimerEvent: {}
+[61.999478] (-) TimerEvent: {}
+[62.107692] (-) TimerEvent: {}
+[62.208229] (-) TimerEvent: {}
+[62.308822] (-) TimerEvent: {}
+[62.409348] (-) TimerEvent: {}
+[62.514067] (-) TimerEvent: {}
+[62.614664] (-) TimerEvent: {}
+[62.715510] (-) TimerEvent: {}
+[62.816043] (-) TimerEvent: {}
+[62.916771] (-) TimerEvent: {}
+[63.017271] (-) TimerEvent: {}
+[63.117970] (-) TimerEvent: {}
+[63.218462] (-) TimerEvent: {}
+[63.319884] (-) TimerEvent: {}
+[63.429193] (-) TimerEvent: {}
+[63.529997] (-) TimerEvent: {}
+[63.634341] (-) TimerEvent: {}
+[63.739745] (-) TimerEvent: {}
+[63.840253] (-) TimerEvent: {}
+[63.940847] (-) TimerEvent: {}
+[64.041392] (-) TimerEvent: {}
+[64.142491] (-) TimerEvent: {}
+[64.243134] (-) TimerEvent: {}
+[64.344222] (-) TimerEvent: {}
+[64.449475] (-) TimerEvent: {}
+[64.554780] (-) TimerEvent: {}
+[64.655375] (-) TimerEvent: {}
+[64.756099] (-) TimerEvent: {}
+[64.857458] (-) TimerEvent: {}
+[64.957955] (-) TimerEvent: {}
+[65.058685] (-) TimerEvent: {}
+[65.161824] (-) TimerEvent: {}
+[65.268296] (-) TimerEvent: {}
+[65.368857] (-) TimerEvent: {}
+[65.469470] (-) TimerEvent: {}
+[65.570869] (-) TimerEvent: {}
+[65.672283] (-) TimerEvent: {}
+[65.773312] (-) TimerEvent: {}
+[65.873878] (-) TimerEvent: {}
+[65.896873] (robotic_arm_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[65.974062] (-) TimerEvent: {}
+[66.076528] (-) TimerEvent: {}
+[66.185282] (-) TimerEvent: {}
+[66.287367] (-) TimerEvent: {}
+[66.389772] (-) TimerEvent: {}
+[66.490315] (-) TimerEvent: {}
+[66.591051] (-) TimerEvent: {}
+[66.692661] (-) TimerEvent: {}
+[66.793372] (-) TimerEvent: {}
+[66.894813] (-) TimerEvent: {}
+[66.995752] (-) TimerEvent: {}
+[67.096196] (-) TimerEvent: {}
+[67.141738] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[67.145673] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[67.197236] (-) TimerEvent: {}
+[67.298377] (-) TimerEvent: {}
+[67.399517] (-) TimerEvent: {}
+[67.514327] (-) TimerEvent: {}
+[67.617046] (-) TimerEvent: {}
+[67.672108] (robotic_arm_gazebo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[67.717182] (-) TimerEvent: {}
+[67.728709] (robotic_arm_gazebo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[67.729183] (robotic_arm_gazebo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[67.732073] (robotic_arm_gazebo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[67.736512] (robotic_arm_gazebo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[67.746914] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[67.769378] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[67.777302] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo\n'}
+[67.817376] (-) TimerEvent: {}
+[67.830023] (robotic_arm_gazebo) CommandEnded: {'returncode': 0}
+[67.830989] (robotic_arm_gazebo) JobProgress: {'identifier': 'robotic_arm_gazebo', 'progress': 'build'}
+[67.831095] (robotic_arm_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo', '--', '-j4', '-l4'], 'cwd': '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'newtonjeri'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/newtonjeri'), ('OLDPWD', '/home/newtonjeri/ai_based_sorting_robot_arm/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'newtonjeri'), ('NAME', 'NewtonsPC'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/newtonjeri/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/newto/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/newto/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/newto/AppData/Local/GitHubDesktop/bin:/mnt/c/OpenSim 4.2/bin:/snap/bin'), ('WT_SESSION', '6584a8a0-82c5-4ad9-824c-b27eea6fd101'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo'), ('PICO_SDK_PATH', '/home/newtonjeri/pico-sdk'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[67.917545] (-) TimerEvent: {}
+[68.018019] (-) TimerEvent: {}
+[68.121135] (-) TimerEvent: {}
+[68.128845] (robotic_arm_gazebo) CommandEnded: {'returncode': 0}
+[68.221386] (-) TimerEvent: {}
+[68.323934] (-) TimerEvent: {}
+[68.331643] (robotic_arm_gazebo) JobProgress: {'identifier': 'robotic_arm_gazebo', 'progress': 'install'}
+[68.331785] (robotic_arm_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo'], 'cwd': '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'newtonjeri'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/newtonjeri'), ('OLDPWD', '/home/newtonjeri/ai_based_sorting_robot_arm/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'newtonjeri'), ('NAME', 'NewtonsPC'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/newtonjeri/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/newto/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/newto/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/newto/AppData/Local/GitHubDesktop/bin:/mnt/c/OpenSim 4.2/bin:/snap/bin'), ('WT_SESSION', '6584a8a0-82c5-4ad9-824c-b27eea6fd101'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_gazebo'), ('PICO_SDK_PATH', '/home/newtonjeri/pico-sdk'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[68.384768] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[68.391367] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[68.393132] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/launch/robotic_arm_launch.py\n'}
+[68.424145] (-) TimerEvent: {}
+[68.461498] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/launch/start_world_launch.py\n'}
+[68.516610] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/worlds/robotic_arm_empty.world\n'}
+[68.524314] (-) TimerEvent: {}
+[68.571525] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/ament_index/resource_index/package_run_dependencies/robotic_arm_gazebo\n'}
+[68.624434] (-) TimerEvent: {}
+[68.651959] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/ament_index/resource_index/parent_prefix_path/robotic_arm_gazebo\n'}
+[68.678691] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/environment/ament_prefix_path.sh\n'}
+[68.713481] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/environment/ament_prefix_path.dsv\n'}
+[68.724935] (-) TimerEvent: {}
+[68.743003] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/environment/path.sh\n'}
+[68.791715] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/environment/path.dsv\n'}
+[68.825135] (-) TimerEvent: {}
+[68.849609] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/local_setup.bash\n'}
+[68.901495] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/local_setup.sh\n'}
+[68.925274] (-) TimerEvent: {}
+[68.940173] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/local_setup.zsh\n'}
+[68.987476] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/local_setup.dsv\n'}
+[69.016376] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/package.dsv\n'}
+[69.025402] (-) TimerEvent: {}
+[69.043151] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/ament_index/resource_index/packages/robotic_arm_gazebo\n'}
+[69.076417] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/cmake/robotic_arm_gazeboConfig.cmake\n'}
+[69.127140] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/cmake/robotic_arm_gazeboConfig-version.cmake\n'}
+[69.129500] (-) TimerEvent: {}
+[69.176727] (robotic_arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo/share/robotic_arm_gazebo/package.xml\n'}
+[69.219997] (robotic_arm_gazebo) CommandEnded: {'returncode': 0}
+[69.230220] (-) TimerEvent: {}
+[69.330710] (-) TimerEvent: {}
+[69.434868] (-) TimerEvent: {}
+[69.542245] (-) TimerEvent: {}
+[69.650192] (-) TimerEvent: {}
+[69.721001] (robotic_arm_gazebo) JobEnded: {'identifier': 'robotic_arm_gazebo', 'rc': 0}
+[69.750341] (-) TimerEvent: {}
+[69.850866] (-) TimerEvent: {}
+[69.951414] (-) TimerEvent: {}
+[70.052007] (-) TimerEvent: {}
+[70.153273] (-) TimerEvent: {}
+[70.257240] (-) TimerEvent: {}
+[70.357797] (-) TimerEvent: {}
+[70.458400] (-) TimerEvent: {}
+[70.559235] (-) TimerEvent: {}
+[70.660777] (-) TimerEvent: {}
+[70.761364] (-) TimerEvent: {}
+[70.861816] (-) TimerEvent: {}
+[70.962270] (-) TimerEvent: {}
+[71.065031] (-) TimerEvent: {}
+[71.166608] (-) TimerEvent: {}
+[71.268948] (-) TimerEvent: {}
+[71.369668] (-) TimerEvent: {}
+[71.474673] (-) TimerEvent: {}
+[71.575481] (-) TimerEvent: {}
+[71.675962] (-) TimerEvent: {}
+[71.776628] (-) TimerEvent: {}
+[71.877529] (-) TimerEvent: {}
+[71.978137] (-) TimerEvent: {}
+[72.078723] (-) TimerEvent: {}
+[72.179133] (-) TimerEvent: {}
+[72.279558] (-) TimerEvent: {}
+[72.384671] (-) TimerEvent: {}
+[72.485506] (-) TimerEvent: {}
+[72.586214] (-) TimerEvent: {}
+[72.686824] (-) TimerEvent: {}
+[72.787356] (-) TimerEvent: {}
+[72.887773] (-) TimerEvent: {}
+[72.988275] (-) TimerEvent: {}
+[73.088897] (-) TimerEvent: {}
+[73.197775] (-) TimerEvent: {}
+[73.298200] (-) TimerEvent: {}
+[73.398727] (-) TimerEvent: {}
+[73.499187] (-) TimerEvent: {}
+[73.599610] (-) TimerEvent: {}
+[73.700816] (-) TimerEvent: {}
+[73.807358] (-) TimerEvent: {}
+[73.912646] (-) TimerEvent: {}
+[74.013385] (-) TimerEvent: {}
+[74.113812] (-) TimerEvent: {}
+[74.215059] (-) TimerEvent: {}
+[74.315731] (-) TimerEvent: {}
+[74.416364] (-) TimerEvent: {}
+[74.516813] (-) TimerEvent: {}
+[74.617250] (-) TimerEvent: {}
+[74.717787] (-) TimerEvent: {}
+[74.818803] (-) TimerEvent: {}
+[74.919330] (-) TimerEvent: {}
+[75.019778] (-) TimerEvent: {}
+[75.120269] (-) TimerEvent: {}
+[75.220955] (-) TimerEvent: {}
+[75.321439] (-) TimerEvent: {}
+[75.425834] (-) TimerEvent: {}
+[75.449769] (robotic_arm_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[75.525999] (-) TimerEvent: {}
+[75.626543] (-) TimerEvent: {}
+[75.731328] (-) TimerEvent: {}
+[75.831915] (-) TimerEvent: {}
+[75.932388] (-) TimerEvent: {}
+[76.034901] (-) TimerEvent: {}
+[76.135695] (-) TimerEvent: {}
+[76.237115] (-) TimerEvent: {}
+[76.337715] (-) TimerEvent: {}
+[76.438284] (-) TimerEvent: {}
+[76.538792] (-) TimerEvent: {}
+[76.639649] (-) TimerEvent: {}
+[76.740576] (-) TimerEvent: {}
+[76.841103] (-) TimerEvent: {}
+[76.943352] (-) TimerEvent: {}
+[77.045016] (-) TimerEvent: {}
+[77.145426] (-) TimerEvent: {}
+[77.246785] (-) TimerEvent: {}
+[77.347958] (-) TimerEvent: {}
+[77.448799] (-) TimerEvent: {}
+[77.549461] (-) TimerEvent: {}
+[77.649979] (-) TimerEvent: {}
+[77.750413] (-) TimerEvent: {}
+[77.850857] (-) TimerEvent: {}
+[77.951361] (-) TimerEvent: {}
+[78.051851] (-) TimerEvent: {}
+[78.152318] (-) TimerEvent: {}
+[78.252711] (-) TimerEvent: {}
+[78.356667] (-) TimerEvent: {}
+[78.457266] (-) TimerEvent: {}
+[78.558278] (-) TimerEvent: {}
+[78.634702] (robotic_arm_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[78.658436] (-) TimerEvent: {}
+[78.758970] (-) TimerEvent: {}
+[78.859456] (-) TimerEvent: {}
+[78.938462] (robotic_arm_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[78.943793] (robotic_arm_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[78.950553] (robotic_arm_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[78.959591] (-) TimerEvent: {}
+[78.974306] (robotic_arm_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[78.980456] (robotic_arm_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup\n'}
+[79.008764] (robotic_arm_bringup) CommandEnded: {'returncode': 0}
+[79.009478] (robotic_arm_bringup) JobProgress: {'identifier': 'robotic_arm_bringup', 'progress': 'build'}
+[79.009550] (robotic_arm_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup', '--', '-j4', '-l4'], 'cwd': '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'newtonjeri'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/newtonjeri'), ('OLDPWD', '/home/newtonjeri/ai_based_sorting_robot_arm/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'newtonjeri'), ('NAME', 'NewtonsPC'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/newtonjeri/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/newto/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/newto/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/newto/AppData/Local/GitHubDesktop/bin:/mnt/c/OpenSim 4.2/bin:/snap/bin'), ('WT_SESSION', '6584a8a0-82c5-4ad9-824c-b27eea6fd101'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup'), ('PICO_SDK_PATH', '/home/newtonjeri/pico-sdk'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[79.059792] (-) TimerEvent: {}
+[79.169037] (robotic_arm_bringup) CommandEnded: {'returncode': 0}
+[79.169886] (-) TimerEvent: {}
+[79.270289] (-) TimerEvent: {}
+[79.284658] (robotic_arm_bringup) JobProgress: {'identifier': 'robotic_arm_bringup', 'progress': 'install'}
+[79.284872] (robotic_arm_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup'], 'cwd': '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'newtonjeri'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/newtonjeri'), ('OLDPWD', '/home/newtonjeri/ai_based_sorting_robot_arm/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'newtonjeri'), ('NAME', 'NewtonsPC'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/newtonjeri/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/newto/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/newto/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/newto/AppData/Local/GitHubDesktop/bin:/mnt/c/OpenSim 4.2/bin:/snap/bin'), ('WT_SESSION', '6584a8a0-82c5-4ad9-824c-b27eea6fd101'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup'), ('PICO_SDK_PATH', '/home/newtonjeri/pico-sdk'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_gazebo:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[79.321154] (robotic_arm_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[79.321874] (robotic_arm_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[79.322453] (robotic_arm_bringup) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/ament_index/resource_index/package_run_dependencies/robotic_arm_bringup\n'}
+[79.368928] (robotic_arm_bringup) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/ament_index/resource_index/parent_prefix_path/robotic_arm_bringup\n'}
+[79.370370] (-) TimerEvent: {}
+[79.400981] (robotic_arm_bringup) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/environment/ament_prefix_path.sh\n'}
+[79.466662] (robotic_arm_bringup) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/environment/ament_prefix_path.dsv\n'}
+[79.470596] (-) TimerEvent: {}
+[79.499529] (robotic_arm_bringup) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/environment/path.sh\n'}
+[79.527695] (robotic_arm_bringup) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/environment/path.dsv\n'}
+[79.546996] (robotic_arm_bringup) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/local_setup.bash\n'}
+[79.567218] (robotic_arm_bringup) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/local_setup.sh\n'}
+[79.573570] (-) TimerEvent: {}
+[79.605311] (robotic_arm_bringup) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/local_setup.zsh\n'}
+[79.625856] (robotic_arm_bringup) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/local_setup.dsv\n'}
+[79.650774] (robotic_arm_bringup) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/package.dsv\n'}
+[79.675471] (-) TimerEvent: {}
+[79.678527] (robotic_arm_bringup) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/ament_index/resource_index/packages/robotic_arm_bringup\n'}
+[79.726331] (robotic_arm_bringup) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/cmake/robotic_arm_bringupConfig.cmake\n'}
+[79.774786] (robotic_arm_bringup) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/cmake/robotic_arm_bringupConfig-version.cmake\n'}
+[79.775561] (-) TimerEvent: {}
+[79.801249] (robotic_arm_bringup) StdoutLine: {'line': b'-- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/package.xml\n'}
+[79.865490] (robotic_arm_bringup) CommandEnded: {'returncode': 0}
+[79.884905] (-) TimerEvent: {}
+[79.989054] (-) TimerEvent: {}
+[80.094117] (-) TimerEvent: {}
+[80.195459] (-) TimerEvent: {}
+[80.206750] (robotic_arm_bringup) JobEnded: {'identifier': 'robotic_arm_bringup', 'rc': 0}
+[80.208848] (-) EventReactorShutdown: {}

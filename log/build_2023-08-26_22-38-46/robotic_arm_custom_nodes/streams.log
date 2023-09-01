@@ -1,0 +1,31 @@
+[3.074s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes': PYTHONPATH=/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/prefix_override:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build
+[4.430s] running develop
+[5.311s] Removing /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic-arm-custom-nodes.egg-link (link to .)
+[5.418s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes' returned '0': PYTHONPATH=/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/prefix_override:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build
+[5.423s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_custom_nodes': PYTHONPATH=/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/prefix_override:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robotic_arm_custom_nodes build --build-base /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build install --record /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/install.log --single-version-externally-managed
+[6.655s] running egg_info
+[6.668s] writing ../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info/PKG-INFO
+[6.674s] writing dependency_links to ../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info/dependency_links.txt
+[6.674s] writing entry points to ../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info/entry_points.txt
+[6.674s] writing requirements to ../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info/requires.txt
+[6.675s] writing top-level names to ../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info/top_level.txt
+[6.675s] reading manifest file '../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info/SOURCES.txt'
+[6.678s] writing manifest file '../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info/SOURCES.txt'
+[6.679s] running build
+[6.679s] running build_py
+[6.690s] running install
+[6.691s] running install_lib
+[6.697s] creating /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes
+[6.697s] copying /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build/lib/robotic_arm_custom_nodes/fk_test_node.py -> /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes
+[6.697s] copying /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build/lib/robotic_arm_custom_nodes/inverse_kinematics_node.py -> /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes
+[6.699s] copying /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build/lib/robotic_arm_custom_nodes/__init__.py -> /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes
+[6.701s] byte-compiling /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes/fk_test_node.py to fk_test_node.cpython-310.pyc
+[6.701s] byte-compiling /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes/inverse_kinematics_node.py to inverse_kinematics_node.cpython-310.pyc
+[6.703s] byte-compiling /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes/__init__.py to __init__.cpython-310.pyc
+[6.706s] running install_data
+[6.707s] running install_egg_info
+[6.715s] Copying ../../build/robotic_arm_custom_nodes/robotic_arm_custom_nodes.egg-info to /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic_arm_custom_nodes-0.0.0-py3.10.egg-info
+[6.720s] running install_scripts
+[6.815s] Installing ik_test_node script to /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/robotic_arm_custom_nodes
+[6.815s] writing list of installed files to '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/install.log'
+[6.933s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_custom_nodes' returned '0': PYTHONPATH=/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/prefix_override:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robotic_arm_custom_nodes build --build-base /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build install --record /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/install.log --single-version-externally-managed

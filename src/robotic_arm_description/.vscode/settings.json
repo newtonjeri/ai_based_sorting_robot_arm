@@ -1,0 +1,30 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/newtonjeri/ros2_ws/install/robotic_arm_description/lib/python3.10/site-packages",
+        "/home/newtonjeri/ros2_ws/install/robot_description/lib/python3.10/site-packages",
+        "/home/newtonjeri/ros2_ws/install/robot_arm_description/lib/python3.10/site-packages",
+        "/home/newtonjeri/ros2_ws/build/kr210_arm",
+        "/home/newtonjeri/ros2_ws/install/kr210_arm/lib/python3.10/site-packages",
+        "/home/newtonjeri/ros2_ws/install/jointcontroldesign_description/lib/python3.10/site-packages",
+        "/home/newtonjeri/ros2_ws/build/drilling_arm_description",
+        "/home/newtonjeri/ros2_ws/install/drilling_arm_description/lib/python3.10/site-packages",
+        "/home/newtonjeri/ros2_ws/build/arm_description",
+        "/home/newtonjeri/ros2_ws/install/arm_description/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/newtonjeri/ros2_ws/install/robotic_arm_description/lib/python3.10/site-packages",
+        "/home/newtonjeri/ros2_ws/install/robot_description/lib/python3.10/site-packages",
+        "/home/newtonjeri/ros2_ws/install/robot_arm_description/lib/python3.10/site-packages",
+        "/home/newtonjeri/ros2_ws/build/kr210_arm",
+        "/home/newtonjeri/ros2_ws/install/kr210_arm/lib/python3.10/site-packages",
+        "/home/newtonjeri/ros2_ws/install/jointcontroldesign_description/lib/python3.10/site-packages",
+        "/home/newtonjeri/ros2_ws/build/drilling_arm_description",
+        "/home/newtonjeri/ros2_ws/install/drilling_arm_description/lib/python3.10/site-packages",
+        "/home/newtonjeri/ros2_ws/build/arm_description",
+        "/home/newtonjeri/ros2_ws/install/arm_description/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

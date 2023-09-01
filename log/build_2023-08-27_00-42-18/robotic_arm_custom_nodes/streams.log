@@ -1,0 +1,17 @@
+[4.388s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes': PYTHONPATH=/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/prefix_override:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build --no-deps install_data
+[5.570s] running develop
+[6.406s] running egg_info
+[6.406s] writing robotic_arm_custom_nodes.egg-info/PKG-INFO
+[6.408s] writing dependency_links to robotic_arm_custom_nodes.egg-info/dependency_links.txt
+[6.408s] writing entry points to robotic_arm_custom_nodes.egg-info/entry_points.txt
+[6.409s] writing requirements to robotic_arm_custom_nodes.egg-info/requires.txt
+[6.410s] writing top-level names to robotic_arm_custom_nodes.egg-info/top_level.txt
+[6.417s] reading manifest file 'robotic_arm_custom_nodes.egg-info/SOURCES.txt'
+[6.420s] writing manifest file 'robotic_arm_custom_nodes.egg-info/SOURCES.txt'
+[6.423s] running build_ext
+[6.424s] Creating /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic-arm-custom-nodes.egg-link (link to .)
+[6.431s] Installing ik_test_node script to /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/robotic_arm_custom_nodes
+[6.432s] 
+[6.432s] Installed /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes
+[6.432s] running install_data
+[6.543s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes' returned '0': PYTHONPATH=/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/prefix_override:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build --no-deps install_data

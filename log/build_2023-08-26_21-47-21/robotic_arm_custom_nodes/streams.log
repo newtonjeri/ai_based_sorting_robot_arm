@@ -1,0 +1,17 @@
+[7.321s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes': PYTHONPATH=/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/prefix_override:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build --no-deps install_data
+[10.007s] running develop
+[11.991s] running egg_info
+[11.991s] writing robotic_arm_custom_nodes.egg-info/PKG-INFO
+[11.992s] writing dependency_links to robotic_arm_custom_nodes.egg-info/dependency_links.txt
+[11.992s] writing entry points to robotic_arm_custom_nodes.egg-info/entry_points.txt
+[11.993s] writing requirements to robotic_arm_custom_nodes.egg-info/requires.txt
+[11.994s] writing top-level names to robotic_arm_custom_nodes.egg-info/top_level.txt
+[12.009s] reading manifest file 'robotic_arm_custom_nodes.egg-info/SOURCES.txt'
+[12.022s] writing manifest file 'robotic_arm_custom_nodes.egg-info/SOURCES.txt'
+[12.026s] running build_ext
+[12.037s] Creating /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic-arm-custom-nodes.egg-link (link to .)
+[12.042s] Installing ik_test_node script to /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/robotic_arm_custom_nodes
+[12.043s] 
+[12.044s] Installed /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes
+[12.044s] running install_data
+[12.326s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes' returned '0': PYTHONPATH=/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/prefix_override:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build --no-deps install_data
