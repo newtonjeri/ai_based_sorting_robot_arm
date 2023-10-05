@@ -1,0 +1,38 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 1000
+
+    robot_joints_joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    gripper_controller:
+      type: forward_command_controller/ForwardCommandController
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+# Robot joints trajectory controllers
+robot_joints_joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - joint_1
+      - joint_2
+      - joint_3
+      - joint_4
+
+    interface_name: position
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+# Gripper controller
+gripper_controller:
+  ros__parameters:
+    joints:
+      - left_gripper_joint
+      - right_gripper_joint
+
+    interfaces_name: position
+
+  

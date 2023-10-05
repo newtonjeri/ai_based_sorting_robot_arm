@@ -1,67 +1,67 @@
 <?xml version="1.0" ?>
 <robot name="robotic_arm" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
-<transmission name="joint_1_tran">
+<transmission name="base_waist_joint_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="joint_1">
+  <joint name="base_waist_joint">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="joint_1_actr">
+  <actuator name="base_waist_joint_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="joint_2_tran">
+<transmission name="waist_link1_joint_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="joint_2">
+  <joint name="waist_link1_joint">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="joint_2_actr">
+  <actuator name="waist_link1_joint_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="joint_3_tran">
+<transmission name="link1_link2_joint_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="joint_3">
+  <joint name="link1_link2_joint">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="joint_3_actr">
+  <actuator name="link1_link2_joint_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="joint_4_tran">
+<transmission name="link2_gripperbase_joint_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="joint_4">
+  <joint name="link2_gripperbase_joint">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="joint_4_actr">
+  <actuator name="link2_gripperbase_joint_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Slider 7_tran">
+<transmission name="left_gripper_joint_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Slider 7">
+  <joint name="left_gripper_joint">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Slider 7_actr">
+  <actuator name="left_gripper_joint_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Slider 8_tran">
+<transmission name="right_gripper_joint_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Slider 8">
+  <joint name="right_gripper_joint">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Slider 8_actr">
+  <actuator name="right_gripper_joint_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>

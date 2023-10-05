@@ -313,9 +313,6 @@ message(STATUS "Execute custom install script")
 # install(DIRECTORY "meshes" "urdf" "launch" "DESTINATION" "share/robotic_arm_description")
 ament_cmake_symlink_install_directory("/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_description" DIRECTORY "meshes" "urdf" "launch" "DESTINATION" "share/robotic_arm_description")
 
-# install(PROGRAMS "launch/spawn_robotic_arm.py" "DESTINATION" "lib/robotic_arm_description")
-ament_cmake_symlink_install_programs("/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_description" PROGRAMS "launch/spawn_robotic_arm.py" "DESTINATION" "lib/robotic_arm_description")
-
 # install(FILES "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robotic_arm_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_description" FILES "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robotic_arm_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

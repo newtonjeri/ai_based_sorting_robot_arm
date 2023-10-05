@@ -25,12 +25,6 @@ install(DIRECTORY meshes urdf launch
   DESTINATION share/${PROJECT_NAME}
 )
 
-install(
-  PROGRAMS
-  launch/spawn_robotic_arm.py
-  DESTINATION lib/${PROJECT_NAME}
-)
-
 ################################################################################
 # Macro for ament package
 ################################################################################

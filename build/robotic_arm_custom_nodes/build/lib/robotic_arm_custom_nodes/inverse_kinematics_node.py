@@ -3,21 +3,10 @@ import rclpy
 from rclpy.node import Node
 from builtin_interfaces.msg import Duration
 from trajectory_msgs.msg import JointTrajectory , JointTrajectoryPoint
-from ament_index_python.packages import get_package_share_directory
 import ikpy.chain
 import sys 
 import numpy as np
-
 import os
-
-## Near to the ground to check grab
-#2.1 0 1.94
-## full strech right
-#3.33 0.05 0.66
-## Full strech up
-#0.47 0 3.78
-## Random
-# 0.63 -0.148 2.39
 
 class Trajectory_publisher(Node):
     def __init__(self):
@@ -32,7 +21,7 @@ class Trajectory_publisher(Node):
         self.timer = self.create_timer(timer_period, self.timer_callback)
         
         # Joints to be controlled
-        self.joints = ['joint_1','joint_2','joint_3','joint_4','left_gripper_finger_joint','right_gripper_finger_joint']
+        self.joints = ['joint_1','joint_2','joint_3','joint_4','left_gripper_joint','right_gripper_joint']
         
         # Path to the share directory
         robotic_arm_description_package_name = '/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_description'
@@ -91,7 +80,6 @@ def main(args=None):
     joint_trajectory_object.destroy_node()
     # Stoping ros2 communication
     rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()

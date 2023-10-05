@@ -1,0 +1,1 @@
+Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_bringup

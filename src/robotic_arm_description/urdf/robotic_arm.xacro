@@ -3,20 +3,26 @@
 
 <xacro:include filename="$(find robotic_arm_description)/urdf/materials.xacro" />
 <xacro:include filename="$(find robotic_arm_description)/urdf/robotic_arm.trans" />
-<xacro:include filename="$(find robotic_arm_description)/urdf/robotic_arm.gazebo" />
+<xacro:include filename="$(find robotic_arm_description)/urdf/robotic_arm_gazebo.xacro"/>
+<xacro:include filename="$(find robotic_arm_description)/urdf/robotic_arm_controllers.xacro"/>
 
-<link name = "world"/>
+
+<!-- Properties -->
+<xacro:property name="PI" value="1.570796"/>
+
+
 <link name="base_link">
   <inertial>
-    <origin xyz="-0.018665097932950923 0.008373602393624096 0.020061176615408474" rpy="0 0 0"/>
-    <mass value="37.446846482870264"/>
-    <inertia ixx="0.651431" iyy="1.819145" izz="2.242189" ixy="0.176946" iyz="0.025331" ixz="-0.038541"/>
+    <origin xyz="0.2975 -0.19749999999999993 0.0075000000000000015" rpy="0 0 0"/>
+    <mass value="2.5415632831137143"/>
+    <inertia ixx="0.033087" iyy="0.075016" izz="0.108008" ixy="0.0" iyz="0.0" ixz="-0.0"/>
   </inertial>
   <visual>
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robotic_arm_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
     </geometry>
+    <material name="oak"/>
   </visual>
   <collision>
     <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -26,491 +32,422 @@
   </collision>
 </link>
 
-<link name="waist">
+<link name="base_v2_1">
   <inertial>
-    <origin xyz="-0.004325137554017311 -0.006085387024749173 0.019240916153630563" rpy="0 0 0"/>
-    <mass value="0.571710754468902"/>
-    <inertia ixx="0.000465" iyy="0.000451" izz="0.000465" ixy="6.7e-05" iyz="7.2e-05" ixz="-0.0"/>
+    <origin xyz="3.307089559423382e-07 -0.06999939486232204 0.0513656205942673" rpy="0 0 0"/>
+    <mass value="0.5102582987586253"/>
+    <inertia ixx="0.001541" iyy="0.00162" izz="0.002267" ixy="0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.27 -0.13 -0.101" rpy="0 0 0"/>
+    <origin xyz="-0.2975 0.0 -0.015" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/waist.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://robotic_arm_description/meshes/base_v2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
-    <material name="black"/>
+    <material name="pa_12_nylon_pa_603cf_with_eos_p_3d_printers"/>
   </visual>
   <collision>
-    <origin xyz="0.27 -0.13 -0.101" rpy="0 0 0"/>
+    <origin xyz="-0.2975 0.0 -0.015" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/waist.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://robotic_arm_description/meshes/base_v2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="link_1">
+<link name="waist_v6_1">
   <inertial>
-    <origin xyz="0.03932970912597472 -0.0304951563107842 0.034414880490293676" rpy="0 0 0"/>
-    <mass value="0.5075597700837723"/>
-    <inertia ixx="0.000611" iyy="0.000576" izz="0.000579" ixy="0.000272" iyz="0.000258" ixz="-0.000242"/>
+    <origin xyz="-0.00731793422720689 -0.0014787118544256073 0.019240916153628926" rpy="0 0 0"/>
+    <mass value="0.08011233502112002"/>
+    <inertia ixx="7.4e-05" iyy="5.5e-05" izz="6.5e-05" ixy="-0.0" iyz="7e-06" ixz="7e-06"/>
   </inertial>
   <visual>
-    <origin xyz="0.2634 -0.117119 -0.14128" rpy="0 0 0"/>
+    <origin xyz="-0.2975 0.07 -0.101" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/link_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://robotic_arm_description/meshes/waist_v6_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
-    <material name="red"/>
+    <material name="pa_12_nylon_pa_603cf_with_eos_p_3d_printers"/>
   </visual>
   <collision>
-    <origin xyz="0.2634 -0.117119 -0.14128" rpy="0 0 0"/>
+    <origin xyz="-0.2975 0.07 -0.101" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/link_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="link_2a">
-  <inertial>
-    <origin xyz="0.021760779101838823 -0.031526656195889166 -0.017698174049491033" rpy="0 0 0"/>
-    <mass value="0.368736609571802"/>
-    <inertia ixx="0.000284" iyy="0.00027" izz="0.000341" ixy="0.000149" iyz="-9.2e-05" ixz="8.8e-05"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.196144 -0.045431 -0.210109" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/link_2a.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="black"/>
-  </visual>
-  <collision>
-    <origin xyz="0.196144 -0.045431 -0.210109" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/link_2a.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="link_2b">
-  <inertial>
-    <origin xyz="0.0046871934926014935 -0.01758526636949733 -0.007526666944419946" rpy="0 0 0"/>
-    <mass value="0.12768227270402752"/>
-    <inertia ixx="2.7e-05" iyy="3.4e-05" izz="2.8e-05" ixy="9e-06" iyz="-2e-06" ixz="4e-06"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.134655 0.008416 -0.172179" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/link_2b.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="black"/>
-  </visual>
-  <collision>
-    <origin xyz="0.134655 0.008416 -0.172179" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/link_2b.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="gripper_base">
-  <inertial>
-    <origin xyz="0.027529630324851395 -0.01204235810533322 0.00914814783980572" rpy="0 0 0"/>
-    <mass value="0.14749809489819876"/>
-    <inertia ixx="3.6e-05" iyy="5.9e-05" izz="7.8e-05" ixy="1.7e-05" iyz="8e-06" ixz="-1.3e-05"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.117292 0.026923 -0.160346" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/gripper_base.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="0.117292 0.026923 -0.160346" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/gripper_base.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="slider_slot">
-  <inertial>
-    <origin xyz="0.0013722494188505852 -0.001463236933399198 0.0001750716067638325" rpy="0 0 0"/>
-    <mass value="0.004356750035092236"/>
-    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.066181 0.063863 -0.17555" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/slider_slot.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="0.066181 0.063863 -0.17555" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/slider_slot.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="slidder_gripper_1">
-  <inertial>
-    <origin xyz="0.020937593705417333 -0.013012654159922518 0.0020833272549800885" rpy="0 0 0"/>
-    <mass value="0.017151155514247545"/>
-    <inertia ixx="2e-06" iyy="2e-06" izz="4e-06" ixy="2e-06" iyz="0.0" ixz="-0.0"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.076439 0.074853 -0.175637" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/slidder_gripper_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="motor_color">
-      <color rgba ="0.0 0.0 0.0 1.0"/>
-    </material>
-  </visual>
-  <collision>
-    <origin xyz="0.076439 0.074853 -0.175637" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/slidder_gripper_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="slidder_gripper_2">
-  <inertial>
-    <origin xyz="0.011651774683778773 -0.021723927124737863 0.0020833272549800608" rpy="0 0 0"/>
-    <mass value="0.017151155514247545"/>
-    <inertia ixx="2e-06" iyy="2e-06" izz="4e-06" ixy="2e-06" iyz="0.0" ixz="-0.0"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.05456 0.054327 -0.175637" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/slidder_gripper_2.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="">
-      <color rgba="0.0 0.0 0.0 1.0"/>
-    </material>
-  </visual>
-  <collision>
-    <origin xyz="0.05456 0.054327 -0.175637" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/slidder_gripper_2.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="camera_link">
-  <inertial>
-    <origin xyz="-0.01000000000000012 0.009999999999999981 -0.0024999999999999467" rpy="0 0 0"/>
-    <mass value="0.015699999999999995"/>
-    <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
-  </inertial>
-  <visual>
-    <origin xyz="-0.3425 0.1925 -0.615" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/camera_link.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="blue"/>
-  </visual>
-  <collision>
-    <origin xyz="-0.3425 0.1925 -0.615" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/camera_link.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="servomotormicro9g_v2_1">
-  <inertial>
-    <origin xyz="0.004246784236529702 0.002300076771489329 -0.01403736470537334" rpy="0 0 0"/>
-    <mass value="0.05595068017526718"/>
-    <inertia ixx="4e-06" iyy="5e-06" izz="3e-06" ixy="-1e-06" iyz="0.0" ixz="0.0"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.073248 0.036015 -0.17611" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/servomotormicro9g_v2_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="blue"/>
-  </visual>
-  <collision>
-    <origin xyz="0.073248 0.036015 -0.17611" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/servomotormicro9g_v2_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="servomotormicro9g_v2_2">
-  <inertial>
-    <origin xyz="-0.013173285358933598 -0.0065534501953197245 0.0019739894599794805" rpy="0 0 0"/>
-    <mass value="0.05595068017526718"/>
-    <inertia ixx="3e-06" iyy="4e-06" izz="5e-06" ixy="-0.0" iyz="-0.0" ixz="1e-06"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.118386 0.02795 -0.160346" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/servomotormicro9g_v2_2.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="blue"/>
-  </visual>
-  <collision>
-    <origin xyz="0.118386 0.02795 -0.160346" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/servomotormicro9g_v2_2.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="servomotormg996r_v2_1">
-  <inertial>
-    <origin xyz="-0.023970472531686826 0.010854967398329491 0.005821878031642358" rpy="0 0 0"/>
-    <mass value="0.2658706317147462"/>
-    <inertia ixx="5.1e-05" iyy="4.7e-05" izz="7e-05" ixy="-2e-06" iyz="-9e-06" ixz="7e-06"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.181171 -0.013395 -0.199955" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/servomotormg996r_v2_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="blue"/>
-  </visual>
-  <collision>
-    <origin xyz="0.181171 -0.013395 -0.199955" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://robotic_arm_description/meshes/servomotormg996r_v2_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://robotic_arm_description/meshes/waist_v6_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
 <link name="servomotormg996r_v2_2">
   <inertial>
-    <origin xyz="-0.002373320488633479 -0.02181114979206003 0.014282327800950845" rpy="0 0 0"/>
+    <origin xyz="-0.01005433656255239 0.020152986183403193 -0.013081986774102439" rpy="0 0 0"/>
     <mass value="0.2658706317147462"/>
-    <inertia ixx="5.2e-05" iyy="5.6e-05" izz="6.1e-05" ixy="-7e-06" iyz="1e-05" ixz="-1.1e-05"/>
+    <inertia ixx="4.7e-05" iyy="6.1e-05" izz="6.1e-05" ixy="2e-06" iyz="1.5e-05" ixz="-2e-06"/>
   </inertial>
   <visual>
-    <origin xyz="0.288487 -0.123397 -0.119537" rpy="0 0 0"/>
+    <origin xyz="-0.2795 0.097168 -0.147467" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robotic_arm_description/meshes/servomotormg996r_v2_2.stl" scale="0.001 0.001 0.001"/>
     </geometry>
-    <material name="blue"/>
+    <material name="paint_enamel_glossy_blue"/>
   </visual>
   <collision>
-    <origin xyz="0.288487 -0.123397 -0.119537" rpy="0 0 0"/>
+    <origin xyz="-0.2795 0.097168 -0.147467" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robotic_arm_description/meshes/servomotormg996r_v2_2.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<joint name="fixed" type="fixed">
-    <parent link="world"/>
-    <child link="base_link"/>
-</joint>
+<link name="link_1_v5_1">
+  <inertial>
+    <origin xyz="0.007817729878361601 -2.3605874380216996e-07 0.05999982401434481" rpy="0 0 0"/>
+    <mass value="0.07112302510728019"/>
+    <inertia ixx="0.000121" iyy="0.000116" izz="1e-05" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.2935 0.08391 -0.14128" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/link_1_v5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="pa_12_nylon_pa_603cf_with_eos_p_3d_printers"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.2935 0.08391 -0.14128" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/link_1_v5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
 
-<joint name="joint_1" type="revolute">
-  <origin xyz="-0.27 0.13 0.101" rpy="0 0 0"/>
+<link name="link_2a_v4_1">
+  <inertial>
+    <origin xyz="-0.0057012559046490385 -0.04181110897598471 -3.1124321273889866e-05" rpy="0 0 0"/>
+    <mass value="0.05167009815655824"/>
+    <inertia ixx="6e-05" iyy="1e-05" izz="5.6e-05" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.2935 0.08391 -0.26128" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/link_2a_v4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="pa_12_nylon_pa_603cf_with_eos_p_3d_printers"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.2935 0.08391 -0.26128" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/link_2a_v4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_2b_v4_1">
+  <inertial>
+    <origin xyz="-0.008613311986319927 -0.017710429447622716 -4.645155661608946e-05" rpy="0 0 0"/>
+    <mass value="0.017891783436233155"/>
+    <inertia ixx="5e-06" iyy="3e-06" izz="4e-06" ixy="1e-06" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.3015 0.17366 -0.26128" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/link_2b_v4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="pa_12_nylon_pa_603cf_with_eos_p_3d_printers"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.3015 0.17366 -0.26128" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/link_2b_v4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="servomotormg996r_v2_3">
+  <inertial>
+    <origin xyz="-0.010054336562552446 0.024498917400786344 0.005000000417687334" rpy="0 0 0"/>
+    <mass value="0.2658706317147462"/>
+    <inertia ixx="4.7e-05" iyy="4.6e-05" izz="7.5e-05" ixy="-2e-06" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.2825 0.11866 -0.25628" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/servomotormg996r_v2_3.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="paint_enamel_glossy_blue"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.2825 0.11866 -0.25628" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/servomotormg996r_v2_3.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="servomotormicro9g_v2_1">
+  <inertial>
+    <origin xyz="-0.005541210223247384 0.013371159759380885 -1.1102230246251565e-16" rpy="0 0 0"/>
+    <mass value="0.05595068017526718"/>
+    <inertia ixx="3e-06" iyy="4e-06" izz="6e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.291 0.21046 -0.26128" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/servomotormicro9g_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="paint_enamel_glossy_blue"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.291 0.21046 -0.26128" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/servomotormicro9g_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="gripper_base_v8_1">
+  <inertial>
+    <origin xyz="0.011837914619012735 -0.02831046923426528 0.0067063756079010495" rpy="0 0 0"/>
+    <mass value="0.020668522851976897"/>
+    <inertia ixx="9e-06" iyy="4e-06" izz="1.1e-05" ixy="2e-06" iyz="1e-06" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.3015 0.20166 -0.26128" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/gripper_base_v8_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="pa_12_nylon_pa_603cf_with_eos_p_3d_printers"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.3015 0.20166 -0.26128" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/gripper_base_v8_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="gripper_gear_1_v2_1">
+  <inertial>
+    <origin xyz="-0.0005644997090397674 -0.005402189148709768 0.0020000001341104467" rpy="0 0 0"/>
+    <mass value="0.0029250313733063305"/>
+    <inertia ixx="0.0" iyy="0.0" izz="1e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.3274 0.23966 -0.27528" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/gripper_gear_1_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="opaque160160160"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.3274 0.23966 -0.27528" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/gripper_gear_1_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="gripper_v3_1">
+  <inertial>
+    <origin xyz="0.004099853901063655 -0.02653931048241409 0.004250000134110421" rpy="0 0 0"/>
+    <mass value="0.005742804742280986"/>
+    <inertia ixx="2e-06" iyy="0.0" izz="2e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.3274 0.27041 -0.27928" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/gripper_v3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="pa_12_nylon_pa_603cf_with_eos_p_3d_printers"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.3274 0.27041 -0.27928" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/gripper_v3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="gripper_v3_2">
+  <inertial>
+    <origin xyz="0.004099853901063488 -0.026539310482414202 -0.004249999865889642" rpy="0 0 0"/>
+    <mass value="0.005742804742280986"/>
+    <inertia ixx="2e-06" iyy="0.0" izz="2e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.3274 0.27041 -0.27528" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/gripper_v3_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="pa_12_nylon_pa_603cf_with_eos_p_3d_printers"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.3274 0.27041 -0.27528" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/gripper_v3_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="gripper_gear_2_v2_1">
+  <inertial>
+    <origin xyz="0.0005811920264957027 -0.005561932438407885 0.0020000001341104467" rpy="0 0 0"/>
+    <mass value="0.0028410220441566826"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.3005 0.23966 -0.27528" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/gripper_gear_2_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="opaque160160160"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.3005 0.23966 -0.27528" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/gripper_gear_2_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="gripper_v3_3">
+  <inertial>
+    <origin xyz="-0.004099853901063988 -0.026539310482414258 -0.0042499998658895866" rpy="0 0 0"/>
+    <mass value="0.005742804742280986"/>
+    <inertia ixx="2e-06" iyy="0.0" izz="2e-06" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.3005 0.27041 -0.27528" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/gripper_v3_3.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="pa_12_nylon_pa_603cf_with_eos_p_3d_printers"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.3005 0.27041 -0.27528" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/gripper_v3_3.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="gripper_v3_4">
+  <inertial>
+    <origin xyz="-0.00409985390106421 -0.026539310482414202 0.004250000134110199" rpy="0 0 0"/>
+    <mass value="0.005742804742280986"/>
+    <inertia ixx="2e-06" iyy="0.0" izz="2e-06" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.3005 0.27041 -0.27928" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/gripper_v3_4.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="pa_12_nylon_pa_603cf_with_eos_p_3d_printers"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.3005 0.27041 -0.27928" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotic_arm_description/meshes/gripper_v3_4.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="rigid_1" type="fixed">
+  <origin xyz="0.2975 0.0 0.015" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="waist"/>
-  <dynamics dumping = "10.0" friction="2.0"/>
-  <axis xyz="0.0 0.0 1.0"/>
-  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+  <child link="base_v2_1"/>
 </joint>
 
-<joint name="joint_2" type="revolute">
-  <origin xyz="0.0066 -0.012881 0.04028" rpy="0 0 0"/>
-  <parent link="waist"/>
-  <child link="link_1"/>
-  <dynamics dumping = "10.0" friction="2.0"/>
-  <axis xyz="-0.729288 -0.684207 0.0"/>
-  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+<joint name="base_waist_joint" type="revolute">
+  <origin xyz="0.0 -0.07 0.086" rpy="0 0 0"/>
+  <parent link="base_v2_1"/>
+  <child link="waist_v6_1"/>
+  <axis xyz="0.0 -0.0 1.0"/>
+  <limit upper="${PI}" lower="-${PI}" effort="100" velocity="100"/>
 </joint>
 
-<joint name="joint_3" type="revolute">
-  <origin xyz="0.067256 -0.071688 0.068829" rpy="0 0 0"/>
-  <parent link="link_1"/>
-  <child link="link_2a"/>
-  <dynamics dumping = "10.0" friction="2.0"/>
-  <axis xyz="0.729288 0.684207 -0.0"/>
-  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
-</joint>
-
-<joint name="Rigid 4" type="fixed">
-  <origin xyz="0.061489 -0.053847 -0.03793" rpy="0 0 0"/>
-  <parent link="link_2a"/>
-  <child link="link_2b"/>
-</joint>
-
-<joint name="joint_4" type="revolute">
-  <origin xyz="0.017363 -0.018507 -0.011833" rpy="0 0 0"/>
-  <parent link="link_2b"/>
-  <child link="gripper_base"/>
-  <dynamics dumping = "10.0" friction="2.0"/>
-  <axis xyz="-0.729288 -0.684207 0.0"/>
-  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
-</joint>
-
-<joint name="Rigid 6" type="fixed">
-  <origin xyz="0.051111 -0.03694 0.015204" rpy="0 0 0"/>
-  <parent link="gripper_base"/>
-  <child link="slider_slot"/>
-</joint>
-
-<joint name="left_gripper_finger_joint" type="prismatic">
-  <origin xyz="-0.010258 -0.01099 8.7e-05" rpy="0 0 0"/>
-  <parent link="slider_slot"/>
-  <child link="slidder_gripper_1"/>
-  <dynamics dumping = "10.0" friction="2.0"/>
-  <axis xyz="-0.729288 -0.684207 0.0"/>
-  <limit upper="0.0" lower="-0.008" effort="100" velocity="100"/>
-</joint>
-
-<joint name="right_gripper_finger_joint" type="prismatic">
-  <origin xyz="0.011621 0.009536 8.7e-05" rpy="0 0 0"/>
-  <parent link="slider_slot"/>
-  <child link="slidder_gripper_2"/>
-  <dynamics dumping = "10.0" friction="2.0"/>
-  <axis xyz="0.729288 0.684207 -0.0"/>
-  <limit upper="0.0" lower="-0.008" effort="100" velocity="100"/>
-</joint>
-
-<joint name="Rigid 9" type="fixed">
-  <origin xyz="0.3425 -0.1925 0.615" rpy="0 0 0"/>
-  <parent link="base_link"/>
-  <child link="camera_link"/>
-</joint>
-
-<joint name="Rigid 10" type="fixed">
-  <origin xyz="0.044044 -0.009092 0.015764" rpy="0 0 0"/>
-  <parent link="gripper_base"/>
-  <child link="servomotormicro9g_v2_1"/>
-</joint>
-
-<joint name="Rigid 11" type="fixed">
-  <origin xyz="0.016269 -0.019534 -0.011833" rpy="0 0 0"/>
-  <parent link="link_2b"/>
-  <child link="servomotormicro9g_v2_2"/>
-</joint>
-
-<joint name="Rigid 12" type="fixed">
-  <origin xyz="0.014973 -0.032036 -0.010154" rpy="0 0 0"/>
-  <parent link="link_2a"/>
-  <child link="servomotormg996r_v2_1"/>
-</joint>
-
-<joint name="Rigid 13" type="fixed">
-  <origin xyz="-0.018487 -0.006603 0.018537" rpy="0 0 0"/>
-  <parent link="waist"/>
+<joint name="rigid_2" type="fixed">
+  <origin xyz="-0.018 -0.027168 0.046467" rpy="0 0 0"/>
+  <parent link="waist_v6_1"/>
   <child link="servomotormg996r_v2_2"/>
 </joint>
 
+<joint name="waist_link1_joint" type="revolute">
+  <origin xyz="-0.004 -0.01391 0.04028" rpy="0 0 0"/>
+  <parent link="waist_v6_1"/>
+  <child link="link_1_v5_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+  <limit upper="${PI}" lower="-${PI}" effort="100" velocity="100"/>
+</joint>
 
-<!-- Gazebo Plugin -->
-<gazebo>
-    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
-      <robot_param>robot_description</robot_param>
-      <robot_param_node>robot_state_publisher</robot_param_node>
-      <parameters>/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_bringup/config/controller_configuration.yaml</parameters>
-    </plugin>
-</gazebo>
+<joint name="link1_link2_joint" type="revolute">
+  <origin xyz="0.0 0.0 0.12" rpy="0 0 0"/>
+  <parent link="link_1_v5_1"/>
+  <child link="link_2a_v4_1"/>
+  <axis xyz="-1.0 0.0 -0.0"/>
+  <limit upper="${2*PI}" lower="0.0" effort="100" velocity="100"/>
+</joint>
 
+<joint name="rigid_3" type="fixed">
+  <origin xyz="0.008 -0.08975 0.0" rpy="0 0 0"/>
+  <parent link="link_2a_v4_1"/>
+  <child link="link_2b_v4_1"/>
+</joint>
 
-<!-- Ros2 Control -->
-  <ros2_control name="GazeboSystem" type="system">
-  <hardware>
-    <plugin>gazebo_ros2_control/GazeboSystem</plugin>
-  </hardware>
+<joint name="rigid_4" type="fixed">
+  <origin xyz="-0.011 -0.03475 -0.005" rpy="0 0 0"/>
+  <parent link="link_2a_v4_1"/>
+  <child link="servomotormg996r_v2_3"/>
+</joint>
 
-  <joint name="joint_1">
-    <command_interface name="position">
-      <param name="min">-3.14</param>
-      <param name="max">3.14</param>
-    </command_interface>
-    <command_interface name="velocity">
-      <param name="min">-3.15</param>
-      <param name="max">3.15</param>
-    </command_interface>
-    <state_interface name="position"/>
-    <state_interface name="velocity"/>
-    <state_interface name="effort"/>
-    <param name="initial_position">0.0</param>   
-  </joint>
+<joint name="rigid_5" type="fixed">
+  <origin xyz="-0.0105 -0.0368 0.0" rpy="0 0 0"/>
+  <parent link="link_2b_v4_1"/>
+  <child link="servomotormicro9g_v2_1"/>
+</joint>
 
-  <joint name="joint_2">
-    <command_interface name="position">
-      <param name="min">-3.14</param>
-      <param name="max">3.14</param>
-    </command_interface>
-    <command_interface name="velocity">
-      <param name="min">-3.15</param>
-      <param name="max">3.15</param>
-    </command_interface>
-    <state_interface name="position"/>
-    <state_interface name="velocity"/>
-    <state_interface name="effort"/>
-    <param name="initial_position">-1.57</param>   
-  </joint>
+<joint name="link2_gripperbase_joint" type="revolute">
+  <origin xyz="0.0 -0.028 0.0" rpy="0 0 0"/>
+  <parent link="link_2b_v4_1"/>
+  <child link="gripper_base_v8_1"/>
+  <axis xyz="1.0 -0.0 0.0"/>
+  <limit upper="${PI}" lower="-${PI}" effort="100" velocity="100"/>
+</joint>
 
-  <joint name="joint_3">
-    <command_interface name="position">
-      <param name="min">-3.14</param>
-      <param name="max">3.14</param>
-    </command_interface>
-    <command_interface name="velocity">
-      <param name="min">-3.15</param>
-      <param name="max">3.15</param>
-    </command_interface>
-    <state_interface name="position"/>
-    <state_interface name="velocity"/>
-    <state_interface name="effort"/>
-    <param name="initial_position">0.0</param>   
-  </joint>
+<joint name="right_gripper_joint" type="revolute">
+  <origin xyz="-0.001 -0.038 0.014" rpy="0 0 0"/>
+  <parent link="gripper_base_v8_1"/>
+  <child link="gripper_gear_2_v2_1"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+  <limit upper="${gripper_angle}" lower="0.0" effort="100" velocity="100"/>
+</joint>
 
-  <joint name="joint_4">
-    <command_interface name="position">
-      <param name="min">-3.14</param>
-      <param name="max">3.14</param>
-    </command_interface>
-    <command_interface name="velocity">
-      <param name="min">-3.2</param>
-      <param name="max">3.2</param>
-    </command_interface>
-    <state_interface name="position"/>
-    <state_interface name="velocity"/>
-    <state_interface name="effort"/>
-    <param name="initial_position">-1.57</param>
-  </joint>
+<joint name="left_gripper_joint" type="revolute">
+  <origin xyz="0.0259 -0.038 0.014" rpy="0 0 0"/>
+  <parent link="gripper_base_v8_1"/>
+  <child link="gripper_gear_1_v2_1"/>
+  <axis xyz="-0.0 -0.0 1.0"/>
+  <mimic joint = "right_gripper_joint" multiplier = "1.0"/>
+  <limit upper = "-${gripper_angle}" lower="0.0" effort="100" velocity="100"/>
+</joint>
 
-  <joint name="left_gripper_finger_joint">
-    <command_interface name="position">
-      <param name="min">-0.008</param>
-      <param name="max">0.0</param>
-    </command_interface>
-    <command_interface name="velocity">
-      <param name="min">-0.01</param>
-      <param name="max">0.1</param>
-    </command_interface>
-    <state_interface name="position"/>
-    <state_interface name="velocity"/>
-    <state_interface name="effort"/>
-    <param name="initial_position">-0.008</param> 
-  </joint>
+<joint name="rigid_6" type="fixed">
+  <origin xyz="0.0 -0.03075 0.004" rpy="0 0 0"/>
+  <parent link="gripper_gear_1_v2_1"/>
+  <child link="gripper_v3_1"/>
+</joint>
 
-  <joint name="right_gripper_finger_joint">
-    <command_interface name="position">
-      <param name="min">-0.008</param>
-      <param name="max">0.0</param>
-    </command_interface>
-    <command_interface name="velocity">
-      <param name="min">-0.01</param>
-      <param name="max">0.1</param>
-    </command_interface>
-    <state_interface name="position"/>
-    <state_interface name="velocity"/>
-    <state_interface name="effort"/>
-    <param name="initial_position">-0.008</param> 
-  </joint>
+<joint name="rigid_7" type="fixed">
+  <origin xyz="0.0 -0.03075 0.0" rpy="0 0 0"/>
+  <parent link="gripper_gear_1_v2_1"/>
+  <child link="gripper_v3_2"/>
+</joint>
 
-</ros2_control>
+<joint name="rigid_8" type="fixed">
+  <origin xyz="0.0 -0.03075 0.0" rpy="0 0 0"/>
+  <parent link="gripper_gear_2_v2_1"/>
+  <child link="gripper_v3_3"/>
+</joint>
+
+<joint name="rigid_9" type="fixed">
+  <origin xyz="0.0 -0.03075 0.004" rpy="0 0 0"/>
+  <parent link="gripper_gear_2_v2_1"/>
+  <child link="gripper_v3_4"/>
+</joint>
 
 </robot>

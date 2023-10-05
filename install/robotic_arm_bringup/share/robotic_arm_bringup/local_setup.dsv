@@ -1,1 +1,2 @@
-/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup/ament_cmake_environment_hooks/local_setup.dsv
+source;share/robotic_arm_bringup/environment/ament_prefix_path.sh
+source;share/robotic_arm_bringup/environment/path.sh

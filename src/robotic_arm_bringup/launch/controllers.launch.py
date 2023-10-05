@@ -1,6 +1,5 @@
 import os
 import xacro
-from ament_index_python.packages import get_package_prefix
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch_ros.actions import Node
@@ -30,12 +29,12 @@ def generate_launch_description():
                     "stderr": "screen",
                 },
             )
-    
+
     #joint_state_broadcaster_controller_node,
     joint_state_broadcaster_controller_node = Node(
-                package="controller_manager",
-                executable="spawner",
-                arguments=["joint_state_broadcaster", "-c", "/controller_manager"],
+            package="controller_manager",
+            executable="spawner",   
+            arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
             )
 
     #joint_trajectory_controller_node,
@@ -45,9 +44,11 @@ def generate_launch_description():
                 arguments=["joint_trajectory_controller", "-c", "/controller_manager"],
             )
     
+    ########################################################################
+    
     return LaunchDescription(
         [
-            controller_manager, 
+            controller_manager,
             joint_state_broadcaster_controller_node,
             joint_trajectory_controller_node,
         ]

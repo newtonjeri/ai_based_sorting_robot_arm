@@ -43,7 +43,69 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotic_arm_bringup" TYPE DIRECTORY FILES
+    "/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_bringup/launch"
+    "/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_bringup/config"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robotic_arm_bringup")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robotic_arm_bringup")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotic_arm_bringup/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotic_arm_bringup/environment" TYPE FILE FILES "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotic_arm_bringup/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotic_arm_bringup/environment" TYPE FILE FILES "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotic_arm_bringup" TYPE FILE FILES "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotic_arm_bringup" TYPE FILE FILES "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotic_arm_bringup" TYPE FILE FILES "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotic_arm_bringup" TYPE FILE FILES "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotic_arm_bringup" TYPE FILE FILES "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup/ament_cmake_index/share/ament_index/resource_index/packages/robotic_arm_bringup")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotic_arm_bringup/cmake" TYPE FILE FILES
+    "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup/ament_cmake_core/robotic_arm_bringupConfig.cmake"
+    "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_bringup/ament_cmake_core/robotic_arm_bringupConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotic_arm_bringup" TYPE FILE FILES "/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_bringup/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
