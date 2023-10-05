@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "launch" "config" "DESTINATION" "share/")
-ament_cmake_symlink_install_directory("/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_controllers" DIRECTORY "launch" "config" "DESTINATION" "share/")
+# install(DIRECTORY "launch" "config" "DESTINATION" "share/robotic_arm_controllers")
+ament_cmake_symlink_install_directory("/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_controllers" DIRECTORY "launch" "config" "DESTINATION" "share/robotic_arm_controllers")
 
 # install(FILES "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_controllers/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robotic_arm_controllers" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_controllers" FILES "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_controllers/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robotic_arm_controllers" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

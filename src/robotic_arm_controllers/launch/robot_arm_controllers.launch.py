@@ -24,6 +24,13 @@ def generate_launch_description():
         ]
     )
     
+    # controller manager 
+    controller_manager = Node(
+        package = 'controller_manager',
+        executable = "controller_manager",
+        output = 'screen',
+    )
+    
     # joint_state_broadcaster node
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",

@@ -21,13 +21,13 @@ class Trajectory_publisher(Node):
         self.timer = self.create_timer(timer_period, self.timer_callback)
         
         # Joints to be controlled
-        self.joints = ['joint_1','joint_2','joint_3','joint_4','left_gripper_joint','right_gripper_joint']
+        self.joints = ['joint_1','joint_2','joint_3','joint_4']
         
         # Path to the share directory
-        robotic_arm_description_package_name = '/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_description'
+        robotic_arm_description_pkg = '/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_description'
         
         # urdf file
-        urdf_file = os.path.join(robotic_arm_description_package_name, "urdf", "robotic_arm.urdf")
+        urdf_file = os.path.join(robotic_arm_description_pkg, "urdf", "robotic_arm.urdf")
         
         ## Toolbox interface
         self.robot_initialize(urdf_file)

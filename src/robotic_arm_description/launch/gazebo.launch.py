@@ -68,8 +68,8 @@ def generate_launch_description():
         env_var,
         model_arg,
         robot_state_publisher,
-        gazebo_node,
-        # gazebo_serve,
-        # gazebo_client,
+        #gazebo_node,
+        gazebo_serve,
+        gazebo_client,
         spawner_node,
     ])

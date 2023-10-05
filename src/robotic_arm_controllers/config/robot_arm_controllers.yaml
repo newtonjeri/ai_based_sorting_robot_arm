@@ -25,14 +25,15 @@ robot_joints_joint_trajectory_controller:
       - position
     state_interfaces:
       - position
-      - velocity
+
+    open_loop_control: true
+    allow_integration_in_goal_trajectories: true
+
 # Gripper controller
 gripper_controller:
   ros__parameters:
     joints:
-      - left_gripper_joint
       - right_gripper_joint
-
-    interfaces_name: position
+    interface_name: position
 
   

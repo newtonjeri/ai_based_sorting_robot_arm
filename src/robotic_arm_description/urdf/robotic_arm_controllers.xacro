@@ -3,9 +3,9 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robotic_arm">
 
 <xacro:property name="gripper_angle" value="0.7854"/>
- <xacro:property name="PI" value="3.14159"/>
+<xacro:property name="PI" value="3.14159"/>
 
- <ros2_control type = "system" name = "RoboticArmSystem">
+<ros2_control type = "system" name = "RoboticArmSystem">
     <hardware>
         <plugin>gazebo_ros2_control/GazeboSystem</plugin>
     </hardware>
