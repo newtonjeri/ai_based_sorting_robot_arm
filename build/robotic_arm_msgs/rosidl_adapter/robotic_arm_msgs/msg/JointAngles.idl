@@ -14,7 +14,7 @@ module robotic_arm_msgs {
 
       float link1_link2_joint;
 
-      float link2_gripperbase_joint;
+      float link2_gripper_base_joint;
     };
   };
 };

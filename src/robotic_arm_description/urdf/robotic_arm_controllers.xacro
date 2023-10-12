@@ -35,7 +35,7 @@
         <state_interface name="position"/>
     </joint>
 
-    <joint name="link2_gripperbase_joint">
+    <joint name="link2_gripper_base_joint">
         <command_interface name="position">
             <param name = "min">-${PI/2}</param>
             <param name = "max">${PI/2}</param>

@@ -38,8 +38,8 @@ cdr_serialize(
   cdr << ros_message.waist_link1_joint;
   // Member: link1_link2_joint
   cdr << ros_message.link1_link2_joint;
-  // Member: link2_gripperbase_joint
-  cdr << ros_message.link2_gripperbase_joint;
+  // Member: link2_gripper_base_joint
+  cdr << ros_message.link2_gripper_base_joint;
   return true;
 }
 
@@ -58,8 +58,8 @@ cdr_deserialize(
   // Member: link1_link2_joint
   cdr >> ros_message.link1_link2_joint;
 
-  // Member: link2_gripperbase_joint
-  cdr >> ros_message.link2_gripperbase_joint;
+  // Member: link2_gripper_base_joint
+  cdr >> ros_message.link2_gripper_base_joint;
 
   return true;
 }
@@ -95,9 +95,9 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // Member: link2_gripperbase_joint
+  // Member: link2_gripper_base_joint
   {
-    size_t item_size = sizeof(ros_message.link2_gripperbase_joint);
+    size_t item_size = sizeof(ros_message.link2_gripper_base_joint);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -147,7 +147,7 @@ max_serialized_size_JointAngles(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
-  // Member: link2_gripperbase_joint
+  // Member: link2_gripper_base_joint
   {
     size_t array_size = 1;
 

@@ -24,14 +24,14 @@ class Trajectory_publisher(Node):
         self.joints = [ "base_waist_joint",
                         "waist_link1_joint",
                         "link1_link2_joint",
-                        "link2_gripperbase_joint"
+                        "link2_gripper_base_joint"
                         ]
                             
         # Path to the share directory
         robotic_arm_description_pkg = '/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_description'
         
         # urdf file
-        urdf_file = os.path.join(robotic_arm_description_pkg, "urdf", "robotic_arm.urdf")
+        urdf_file = os.path.join(robotic_arm_description_pkg, "urdf", "robotic_arm_urdf.urdf")
         
         ## Toolbox interface
         self.robot_initialize(urdf_file)
@@ -51,16 +51,17 @@ class Trajectory_publisher(Node):
 
     # Function to initialize urdf
     def robot_initialize(self,urdf_file):
-        self.robotic_arm = ikpy.chain.Chain.from_urdf_file(urdf_file)
+        self.robotic_arm = ikpy.chain.Chain.from_urdf_file(urdf_file, active_links_mask=[False, False, True, True, True, True, False])
     
     # Forward Kinematics Solver
     def get_fk_solution(self):
-        T=self.robotic_arm.forward_kinematics([0] * 4)
+        T=self.robotic_arm.forward_kinematics([0] * 7)
         print("\nTransformation Matrix :\n",format(T))
     
     # Inverse Kinematics Solver
     def inverse_kinematics_solution(self,x,y,z):
         angles=self.robotic_arm.inverse_kinematics([x,y,z])
+        angles = np.delete(angles, [0, 1, 6])
         self.goal_positions = list(angles) 
         print("\nInverse Kinematics Solution :\n" ,self.goal_positions)
 

@@ -64,9 +64,9 @@ static bool _JointAngles__cdr_serialize(
     cdr << ros_message->link1_link2_joint;
   }
 
-  // Field name: link2_gripperbase_joint
+  // Field name: link2_gripper_base_joint
   {
-    cdr << ros_message->link2_gripperbase_joint;
+    cdr << ros_message->link2_gripper_base_joint;
   }
 
   return true;
@@ -96,9 +96,9 @@ static bool _JointAngles__cdr_deserialize(
     cdr >> ros_message->link1_link2_joint;
   }
 
-  // Field name: link2_gripperbase_joint
+  // Field name: link2_gripper_base_joint
   {
-    cdr >> ros_message->link2_gripperbase_joint;
+    cdr >> ros_message->link2_gripper_base_joint;
   }
 
   return true;
@@ -136,9 +136,9 @@ size_t get_serialized_size_robotic_arm_msgs__msg__JointAngles(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name link2_gripperbase_joint
+  // field.name link2_gripper_base_joint
   {
-    size_t item_size = sizeof(ros_message->link2_gripperbase_joint);
+    size_t item_size = sizeof(ros_message->link2_gripper_base_joint);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -190,7 +190,7 @@ size_t max_serialized_size_robotic_arm_msgs__msg__JointAngles(
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
-  // member: link2_gripperbase_joint
+  // member: link2_gripper_base_joint
   {
     size_t array_size = 1;
 

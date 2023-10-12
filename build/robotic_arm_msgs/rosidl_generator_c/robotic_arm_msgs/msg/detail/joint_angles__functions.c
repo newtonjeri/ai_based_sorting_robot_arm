@@ -20,7 +20,7 @@ robotic_arm_msgs__msg__JointAngles__init(robotic_arm_msgs__msg__JointAngles * ms
   // base_waist_joint
   // waist_link1_joint
   // link1_link2_joint
-  // link2_gripperbase_joint
+  // link2_gripper_base_joint
   return true;
 }
 
@@ -33,7 +33,7 @@ robotic_arm_msgs__msg__JointAngles__fini(robotic_arm_msgs__msg__JointAngles * ms
   // base_waist_joint
   // waist_link1_joint
   // link1_link2_joint
-  // link2_gripperbase_joint
+  // link2_gripper_base_joint
 }
 
 bool
@@ -54,8 +54,8 @@ robotic_arm_msgs__msg__JointAngles__are_equal(const robotic_arm_msgs__msg__Joint
   if (lhs->link1_link2_joint != rhs->link1_link2_joint) {
     return false;
   }
-  // link2_gripperbase_joint
-  if (lhs->link2_gripperbase_joint != rhs->link2_gripperbase_joint) {
+  // link2_gripper_base_joint
+  if (lhs->link2_gripper_base_joint != rhs->link2_gripper_base_joint) {
     return false;
   }
   return true;
@@ -75,8 +75,8 @@ robotic_arm_msgs__msg__JointAngles__copy(
   output->waist_link1_joint = input->waist_link1_joint;
   // link1_link2_joint
   output->link1_link2_joint = input->link1_link2_joint;
-  // link2_gripperbase_joint
-  output->link2_gripperbase_joint = input->link2_gripperbase_joint;
+  // link2_gripper_base_joint
+  output->link2_gripper_base_joint = input->link2_gripper_base_joint;
   return true;
 }
 

@@ -84,14 +84,14 @@ static rosidl_typesupport_introspection_c__MessageMember robotic_arm_msgs__msg__
     NULL  // resize(index) function pointer
   },
   {
-    "link2_gripperbase_joint",  // name
+    "link2_gripper_base_joint",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(robotic_arm_msgs__msg__JointAngles, link2_gripperbase_joint),  // bytes offset in struct
+    offsetof(robotic_arm_msgs__msg__JointAngles, link2_gripper_base_joint),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer

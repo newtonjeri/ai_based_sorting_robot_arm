@@ -26,7 +26,7 @@ typedef struct robotic_arm_msgs__msg__JointAngles
   float base_waist_joint;
   float waist_link1_joint;
   float link1_link2_joint;
-  float link2_gripperbase_joint;
+  float link2_gripper_base_joint;
 } robotic_arm_msgs__msg__JointAngles;
 
 // Struct for a sequence of robotic_arm_msgs__msg__JointAngles.

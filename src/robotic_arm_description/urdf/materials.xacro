@@ -12,11 +12,5 @@
 <material name="pa_12_nylon_pa_603cf_with_eos_p_3d_printers">
   <color rgba="0.24705882352941178 0.24705882352941178 0.24705882352941178 1.0"/>
 </material>
-<material name="paint_enamel_glossy_blue">
-  <color rgba="0.18823529411764706 0.23137254901960785 0.5882352941176471 1.0"/>
-</material>
-<material name="opaque160160160">
-  <color rgba="0.6274509803921569 0.6274509803921569 0.6274509803921569 1.0"/>
-</material>
 
 </robot>

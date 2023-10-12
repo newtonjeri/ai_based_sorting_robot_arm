@@ -90,14 +90,14 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember JointAngles_m
     nullptr  // resize(index) function pointer
   },
   {
-    "link2_gripperbase_joint",  // name
+    "link2_gripper_base_joint",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(robotic_arm_msgs::msg::JointAngles, link2_gripperbase_joint),  // bytes offset in struct
+    offsetof(robotic_arm_msgs::msg::JointAngles, link2_gripper_base_joint),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer

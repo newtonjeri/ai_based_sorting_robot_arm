@@ -41,7 +41,7 @@ struct JointAngles_
       this->base_waist_joint = 0.0f;
       this->waist_link1_joint = 0.0f;
       this->link1_link2_joint = 0.0f;
-      this->link2_gripperbase_joint = 0.0f;
+      this->link2_gripper_base_joint = 0.0f;
     }
   }
 
@@ -54,7 +54,7 @@ struct JointAngles_
       this->base_waist_joint = 0.0f;
       this->waist_link1_joint = 0.0f;
       this->link1_link2_joint = 0.0f;
-      this->link2_gripperbase_joint = 0.0f;
+      this->link2_gripper_base_joint = 0.0f;
     }
   }
 
@@ -68,9 +68,9 @@ struct JointAngles_
   using _link1_link2_joint_type =
     float;
   _link1_link2_joint_type link1_link2_joint;
-  using _link2_gripperbase_joint_type =
+  using _link2_gripper_base_joint_type =
     float;
-  _link2_gripperbase_joint_type link2_gripperbase_joint;
+  _link2_gripper_base_joint_type link2_gripper_base_joint;
 
   // setters for named parameter idiom
   Type & set__base_waist_joint(
@@ -91,10 +91,10 @@ struct JointAngles_
     this->link1_link2_joint = _arg;
     return *this;
   }
-  Type & set__link2_gripperbase_joint(
+  Type & set__link2_gripper_base_joint(
     const float & _arg)
   {
-    this->link2_gripperbase_joint = _arg;
+    this->link2_gripper_base_joint = _arg;
     return *this;
   }
 
@@ -149,7 +149,7 @@ struct JointAngles_
     if (this->link1_link2_joint != other.link1_link2_joint) {
       return false;
     }
-    if (this->link2_gripperbase_joint != other.link2_gripperbase_joint) {
+    if (this->link2_gripper_base_joint != other.link2_gripper_base_joint) {
       return false;
     }
     return true;

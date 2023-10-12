@@ -77,13 +77,13 @@ bool robotic_arm_msgs__msg__joint_angles__convert_from_py(PyObject * _pymsg, voi
     ros_message->link1_link2_joint = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // link2_gripperbase_joint
-    PyObject * field = PyObject_GetAttrString(_pymsg, "link2_gripperbase_joint");
+  {  // link2_gripper_base_joint
+    PyObject * field = PyObject_GetAttrString(_pymsg, "link2_gripper_base_joint");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->link2_gripperbase_joint = (float)PyFloat_AS_DOUBLE(field);
+    ros_message->link2_gripper_base_joint = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
 
@@ -141,11 +141,11 @@ PyObject * robotic_arm_msgs__msg__joint_angles__convert_to_py(void * raw_ros_mes
       }
     }
   }
-  {  // link2_gripperbase_joint
+  {  // link2_gripper_base_joint
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->link2_gripperbase_joint);
+    field = PyFloat_FromDouble(ros_message->link2_gripper_base_joint);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "link2_gripperbase_joint", field);
+      int rc = PyObject_SetAttrString(_pymessage, "link2_gripper_base_joint", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

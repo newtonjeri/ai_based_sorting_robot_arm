@@ -60,14 +60,14 @@ class JointAngles(metaclass=Metaclass_JointAngles):
         '_base_waist_joint',
         '_waist_link1_joint',
         '_link1_link2_joint',
-        '_link2_gripperbase_joint',
+        '_link2_gripper_base_joint',
     ]
 
     _fields_and_field_types = {
         'base_waist_joint': 'float',
         'waist_link1_joint': 'float',
         'link1_link2_joint': 'float',
-        'link2_gripperbase_joint': 'float',
+        'link2_gripper_base_joint': 'float',
     }
 
     SLOT_TYPES = (
@@ -84,7 +84,7 @@ class JointAngles(metaclass=Metaclass_JointAngles):
         self.base_waist_joint = kwargs.get('base_waist_joint', float())
         self.waist_link1_joint = kwargs.get('waist_link1_joint', float())
         self.link1_link2_joint = kwargs.get('link1_link2_joint', float())
-        self.link2_gripperbase_joint = kwargs.get('link2_gripperbase_joint', float())
+        self.link2_gripper_base_joint = kwargs.get('link2_gripper_base_joint', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -121,7 +121,7 @@ class JointAngles(metaclass=Metaclass_JointAngles):
             return False
         if self.link1_link2_joint != other.link1_link2_joint:
             return False
-        if self.link2_gripperbase_joint != other.link2_gripperbase_joint:
+        if self.link2_gripper_base_joint != other.link2_gripper_base_joint:
             return False
         return True
 
@@ -176,16 +176,16 @@ class JointAngles(metaclass=Metaclass_JointAngles):
         self._link1_link2_joint = value
 
     @builtins.property
-    def link2_gripperbase_joint(self):
-        """Message field 'link2_gripperbase_joint'."""
-        return self._link2_gripperbase_joint
+    def link2_gripper_base_joint(self):
+        """Message field 'link2_gripper_base_joint'."""
+        return self._link2_gripper_base_joint
 
-    @link2_gripperbase_joint.setter
-    def link2_gripperbase_joint(self, value):
+    @link2_gripper_base_joint.setter
+    def link2_gripper_base_joint(self, value):
         if __debug__:
             assert \
                 isinstance(value, float), \
-                "The 'link2_gripperbase_joint' field must be of type 'float'"
+                "The 'link2_gripper_base_joint' field must be of type 'float'"
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'link2_gripperbase_joint' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._link2_gripperbase_joint = value
+                "The 'link2_gripper_base_joint' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._link2_gripper_base_joint = value

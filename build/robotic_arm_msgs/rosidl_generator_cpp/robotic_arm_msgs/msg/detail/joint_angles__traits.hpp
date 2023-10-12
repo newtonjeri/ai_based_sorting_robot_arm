@@ -46,10 +46,10 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: link2_gripperbase_joint
+  // member: link2_gripper_base_joint
   {
-    out << "link2_gripperbase_joint: ";
-    rosidl_generator_traits::value_to_yaml(msg.link2_gripperbase_joint, out);
+    out << "link2_gripper_base_joint: ";
+    rosidl_generator_traits::value_to_yaml(msg.link2_gripper_base_joint, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -88,13 +88,13 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
-  // member: link2_gripperbase_joint
+  // member: link2_gripper_base_joint
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "link2_gripperbase_joint: ";
-    rosidl_generator_traits::value_to_yaml(msg.link2_gripperbase_joint, out);
+    out << "link2_gripper_base_joint: ";
+    rosidl_generator_traits::value_to_yaml(msg.link2_gripper_base_joint, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

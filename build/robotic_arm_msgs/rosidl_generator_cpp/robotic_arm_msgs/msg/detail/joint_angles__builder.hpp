@@ -21,15 +21,15 @@ namespace msg
 namespace builder
 {
 
-class Init_JointAngles_link2_gripperbase_joint
+class Init_JointAngles_link2_gripper_base_joint
 {
 public:
-  explicit Init_JointAngles_link2_gripperbase_joint(::robotic_arm_msgs::msg::JointAngles & msg)
+  explicit Init_JointAngles_link2_gripper_base_joint(::robotic_arm_msgs::msg::JointAngles & msg)
   : msg_(msg)
   {}
-  ::robotic_arm_msgs::msg::JointAngles link2_gripperbase_joint(::robotic_arm_msgs::msg::JointAngles::_link2_gripperbase_joint_type arg)
+  ::robotic_arm_msgs::msg::JointAngles link2_gripper_base_joint(::robotic_arm_msgs::msg::JointAngles::_link2_gripper_base_joint_type arg)
   {
-    msg_.link2_gripperbase_joint = std::move(arg);
+    msg_.link2_gripper_base_joint = std::move(arg);
     return std::move(msg_);
   }
 
@@ -43,10 +43,10 @@ public:
   explicit Init_JointAngles_link1_link2_joint(::robotic_arm_msgs::msg::JointAngles & msg)
   : msg_(msg)
   {}
-  Init_JointAngles_link2_gripperbase_joint link1_link2_joint(::robotic_arm_msgs::msg::JointAngles::_link1_link2_joint_type arg)
+  Init_JointAngles_link2_gripper_base_joint link1_link2_joint(::robotic_arm_msgs::msg::JointAngles::_link1_link2_joint_type arg)
   {
     msg_.link1_link2_joint = std::move(arg);
-    return Init_JointAngles_link2_gripperbase_joint(msg_);
+    return Init_JointAngles_link2_gripper_base_joint(msg_);
   }
 
 private:

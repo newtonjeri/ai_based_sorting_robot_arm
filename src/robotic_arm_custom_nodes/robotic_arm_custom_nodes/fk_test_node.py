@@ -15,7 +15,7 @@ class Trajectory_publisher(Node):
         self.joints = [ "base_waist_joint",
                         "waist_link1_joint",
                         "link1_link2_joint",
-                        "link2_gripperbase_joint"
+                        "link2_gripper_base_joint"
                         ]
         self.goal_positions = [1.4729081655953082, -0.04408820535679106, 1.0457540452540584, -0.6734926670020603]
         
