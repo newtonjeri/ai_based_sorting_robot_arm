@@ -13,16 +13,20 @@ class Trajectory_publisher(Node):
         # trajectory publisher node
         super().__init__('trajectory_publisher_node')
         # Topic to publish to
-        publish_topic = "/joint_trajectory_controller/joint_trajectory"
+        publish_topic = "/robot_joints_joint_trajectory_controller/joint_trajectory"
         # Creating the trajectory publisher
-        self.trajectory_publisher = self.create_publisher(JointTrajectory,publish_topic, 10)
+        self.trajectory_publisher = self.create_publisher(JointTrajectory, publish_topic, 10)
         timer_period = 1.0
         # Creating a timer
         self.timer = self.create_timer(timer_period, self.timer_callback)
         
         # Joints to be controlled
-        self.joints = ['joint_1','joint_2','joint_3','joint_4']
-        
+        self.joints = [ "base_waist_joint",
+                        "waist_link1_joint",
+                        "link1_link2_joint",
+                        "link2_gripperbase_joint"
+                        ]
+                            
         # Path to the share directory
         robotic_arm_description_pkg = '/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_description'
         
@@ -32,7 +36,7 @@ class Trajectory_publisher(Node):
         ## Toolbox interface
         self.robot_initialize(urdf_file)
         argv = sys.argv[1:] 
-        self.inverse_kinematics_solution(float(argv[0]),float(argv[1]),float(argv[2]),argv[3] )
+        self.inverse_kinematics_solution(float(argv[0]),float(argv[1]),float(argv[2]))
     
     # Timer callback function
     def timer_callback(self):
@@ -45,25 +49,19 @@ class Trajectory_publisher(Node):
         self.trajectory_publisher.publish(trajectory_msg)
         print("\nTrajectory Sent !\n")
 
-
+    # Function to initialize urdf
     def robot_initialize(self,urdf_file):
         self.robotic_arm = ikpy.chain.Chain.from_urdf_file(urdf_file)
     
     # Forward Kinematics Solver
     def get_fk_solution(self):
-        T=self.robotic_arm.forward_kinematics([0] * 8)
-        print("\nTransformation Matrix :\n",T)
+        T=self.robotic_arm.forward_kinematics([0] * 4)
+        print("\nTransformation Matrix :\n",format(T))
     
     # Inverse Kinematics Solver
-    def inverse_kinematics_solution(self,x,y,z,claw):
+    def inverse_kinematics_solution(self,x,y,z):
         angles=self.robotic_arm.inverse_kinematics([x,y,z])
-        angles=np.delete(angles, [0, 4, 6, 7])
-        if (claw=="o"):
-            print("\nClaw Open\n")
-            self.goal_positions = list(np.append(angles ,[-0.008,-0.008]) )
-        else:
-            print("\nClaw Closed\n")
-            self.goal_positions = list(np.append(angles ,[0.00, 0.00]) ) 
+        self.goal_positions = list(angles) 
         print("\nInverse Kinematics Solution :\n" ,self.goal_positions)
 
 

@@ -1,0 +1,1 @@
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

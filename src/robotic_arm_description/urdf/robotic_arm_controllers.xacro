@@ -29,7 +29,7 @@
 
     <joint name="link1_link2_joint">
         <command_interface name="position">
-            <param name = "min">0,0</param>
+            <param name = "min">0.0</param>
             <param name = "max">${PI}</param>
         </command_interface>
         <state_interface name="position"/>
@@ -50,7 +50,6 @@
         </command_interface>
         <state_interface name="position"/>
     </joint>
-
 
     <joint name="left_gripper_joint">
         <param name = "mimic">right_gripper_joint</param>

@@ -1,0 +1,25 @@
+[4.095s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes': PYTHONPATH=/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/prefix_override:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build --no-deps install_data
+[5.475s] running develop
+[6.484s] running egg_info
+[6.487s] creating robotic_arm_custom_nodes.egg-info
+[6.488s] writing robotic_arm_custom_nodes.egg-info/PKG-INFO
+[6.488s] writing dependency_links to robotic_arm_custom_nodes.egg-info/dependency_links.txt
+[6.490s] writing entry points to robotic_arm_custom_nodes.egg-info/entry_points.txt
+[6.492s] writing requirements to robotic_arm_custom_nodes.egg-info/requires.txt
+[6.492s] writing top-level names to robotic_arm_custom_nodes.egg-info/top_level.txt
+[6.493s] writing manifest file 'robotic_arm_custom_nodes.egg-info/SOURCES.txt'
+[6.497s] reading manifest file 'robotic_arm_custom_nodes.egg-info/SOURCES.txt'
+[6.499s] writing manifest file 'robotic_arm_custom_nodes.egg-info/SOURCES.txt'
+[6.507s] running build_ext
+[6.507s] Creating /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages/robotic-arm-custom-nodes.egg-link (link to .)
+[6.512s] Installing fk_test_node script to /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/robotic_arm_custom_nodes
+[6.512s] Installing ik_node script to /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/robotic_arm_custom_nodes
+[6.514s] 
+[6.515s] Installed /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes
+[6.515s] running install_data
+[6.515s] creating /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/ament_index
+[6.515s] creating /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/ament_index/resource_index
+[6.515s] creating /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/ament_index/resource_index/packages
+[6.515s] copying resource/robotic_arm_custom_nodes -> /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/ament_index/resource_index/packages
+[6.516s] copying package.xml -> /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/share/robotic_arm_custom_nodes
+[6.648s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes' returned '0': PYTHONPATH=/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/prefix_override:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_custom_nodes/build --no-deps install_data

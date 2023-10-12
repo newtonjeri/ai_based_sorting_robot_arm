@@ -1,0 +1,1 @@
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_msgs/rosidl_generator_c/robotic_arm_msgs/msg/detail/joint_angles__struct.h

@@ -15,10 +15,11 @@ controller_manager:
 robot_joints_joint_trajectory_controller:
   ros__parameters:
     joints:
-      - joint_1
-      - joint_2
-      - joint_3
-      - joint_4
+      - base_waist_joint
+      - waist_link1_joint
+      - link1_link2_joint
+      - link2_gripperbase_joint
+    
 
     interface_name: position
     command_interfaces:
@@ -34,6 +35,7 @@ gripper_controller:
   ros__parameters:
     joints:
       - right_gripper_joint
+      
     interface_name: position
 
   

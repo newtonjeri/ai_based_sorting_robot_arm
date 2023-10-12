@@ -4,12 +4,14 @@
 <xacro:include filename="$(find robotic_arm_description)/urdf/materials.xacro" />
 <xacro:include filename="$(find robotic_arm_description)/urdf/robotic_arm.trans" />
 <xacro:include filename="$(find robotic_arm_description)/urdf/robotic_arm_gazebo.xacro"/>
-<xacro:include filename="$(find robotic_arm_description)/urdf/robotic_arm.gazebo.xacro"/>
 <xacro:include filename="$(find robotic_arm_description)/urdf/robotic_arm_controllers.xacro"/>
 
 <!-- Properties -->
 <xacro:property name="PI" value="1.570796"/>
 
+
+<!-- Links -->
+<link name = "world"/>
 
 <link name="base_link">
   <inertial>
@@ -347,6 +349,14 @@
   </collision>
 </link>
 
+<!-- Joints -->
+
+<joint name = "virtual_joint" type= "fixed">
+  <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  <parent link="world"/>
+  <child link="base_link"/>
+</joint>
+
 <joint name="rigid_1" type="fixed">
   <origin xyz="0.0 0.07 0.015" rpy="0 0 0"/>
   <parent link="base_link"/>
@@ -357,14 +367,11 @@
   <origin xyz="0.0 -0.07 0.086" rpy="0 0 0"/>
   <parent link="base_v2_1"/>
   <child link="waist_v6_1"/>
-  <axis xyz="0.0 -0.0 1.0"/>
+  <axis xyz="0.0 0.0 1.0"/>
+  
+  <dynamics damping="10.0" friction="5.0"/>
+  
   <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
-</joint>
-
-<joint name="rigid_2" type="fixed">
-  <origin xyz="-0.018 -0.027168 0.046467" rpy="0 0 0"/>
-  <parent link="waist_v6_1"/>
-  <child link="servomotormg996r_v2_2"/>
 </joint>
 
 <joint name="waist_link1_joint" type="revolute">
@@ -372,6 +379,7 @@
   <parent link="waist_v6_1"/>
   <child link="link_1_v5_1"/>
   <axis xyz="1.0 0.0 0.0"/>
+  <dynamics damping="10.0" friction="5.0"/>
   <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
 </joint>
 
@@ -379,8 +387,24 @@
   <origin xyz="0.0 0.0 0.12" rpy="0 0 0"/>
   <parent link="link_1_v5_1"/>
   <child link="link_2a_v4_1"/>
-  <axis xyz="-1.0 0.0 -0.0"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+  <dynamics damping="10.0" friction="5.0"/>
   <limit upper="3.141593" lower="0.0" effort="100" velocity="100"/>
+</joint>
+
+<joint name="link2_gripperbase_joint" type="revolute">
+  <origin xyz="0.0 -0.028 0.0" rpy="0 0 0"/>
+  <parent link="link_2b_v4_1"/>
+  <child link="gripper_base_v8_1"/>
+  <axis xyz="1.0 -0.0 0.0"/>
+  <dynamics damping="10.0" friction="5.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+</joint>
+
+<joint name="rigid_2" type="fixed">
+  <origin xyz="-0.018 -0.027168 0.046467" rpy="0 0 0"/>
+  <parent link="waist_v6_1"/>
+  <child link="servomotormg996r_v2_2"/>
 </joint>
 
 <joint name="rigid_3" type="fixed">
@@ -401,13 +425,6 @@
   <child link="servomotormicro9g_v2_1"/>
 </joint>
 
-<joint name="link2_gripperbase_joint" type="revolute">
-  <origin xyz="0.0 -0.028 0.0" rpy="0 0 0"/>
-  <parent link="link_2b_v4_1"/>
-  <child link="gripper_base_v8_1"/>
-  <axis xyz="1.0 -0.0 0.0"/>
-  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
-</joint>
 
 <joint name="rigid_6" type="fixed">
   <origin xyz="0.0 -0.03075 0.004" rpy="0 0 0"/>
@@ -426,6 +443,7 @@
   <parent link="gripper_base_v8_1"/>
   <child link="gripper_gear_2_v2_1"/>
   <axis xyz="0.0 0.0 -1.0"/>
+  <dynamics damping="10.0" friction="5.0"/>
   <limit upper="${gripper_angle}" lower="0.0" effort="100" velocity="100"/>
 </joint>
 
@@ -434,6 +452,7 @@
   <parent link="gripper_base_v8_1"/>
   <child link="gripper_gear_1_v2_1"/>
   <axis xyz="-0.0 -0.0 1.0"/>
+  <dynamics damping="10.0" friction="5.0"/>
   <mimic joint = "right_gripper_joint" multiplier = "1.0"/>
   <limit upper = "-${gripper_angle}" lower="0.0" effort="100" velocity="100"/>
 </joint>
@@ -449,8 +468,6 @@
   <parent link="gripper_gear_2_v2_1"/>
   <child link="gripper_v3_4"/>
 </joint>
-
-
 
 
 </robot>

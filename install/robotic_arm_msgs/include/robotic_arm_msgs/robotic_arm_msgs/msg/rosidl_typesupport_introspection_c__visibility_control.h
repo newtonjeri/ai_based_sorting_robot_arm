@@ -1,0 +1,1 @@
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_msgs/rosidl_typesupport_introspection_c/robotic_arm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

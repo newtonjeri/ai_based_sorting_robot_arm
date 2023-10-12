@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_msgs/rosidl_generator_py/robotic_arm_msgs/robotic_arm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "robotic_arm_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/robotic_arm_msgs")
