@@ -198,6 +198,7 @@
   <parent link="base"/>
   <child link="waist"/>
   <axis xyz="0.0 0.0 1.0"/>
+  <dynamics damping="10.0" friction="2.0"/>
   <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
 </joint>
 
@@ -206,6 +207,7 @@
   <parent link="waist"/>
   <child link="link_1"/>
   <axis xyz="1.0 0.0 -0.0"/>
+  <dynamics damping="10.0" friction="2.0"/>
   <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
 </joint>
 
@@ -214,6 +216,7 @@
   <parent link="link_1"/>
   <child link="link_2"/>
   <axis xyz="-1.0 0.0 -0.0"/>
+  <dynamics damping="10.0" friction="2.0"/>
   <limit upper="3.141593" lower="0.0" effort="100" velocity="100"/>
 </joint>
 
@@ -222,6 +225,7 @@
   <parent link="link_2"/>
   <child link="gripper_base"/>
   <axis xyz="1.0 0.0 0.0"/>
+  <dynamics damping="10.0" friction="2.0"/>
   <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
 </joint>
 
@@ -230,6 +234,7 @@
   <parent link="gripper_base"/>
   <child link="gripper_finger_2"/>
   <axis xyz="0.0 0.0 -1.0"/>
+  <dynamics damping="10.0" friction="2.0"/>
   <limit upper="0.785398" lower="0.0" effort="100" velocity="100"/>
 </joint>
 
@@ -238,6 +243,7 @@
   <parent link="gripper_base"/>
   <child link="gripper_finger_1"/>
   <axis xyz="-0.0 -0.0 1.0"/>
+  <dynamics damping="10.0" friction="2.0"/>
   <mimic joint = "right_gripper_joint" multiplier = "1.0"/>
   <limit upper="-0.785398" lower="0.0" effort="100" velocity="100"/>
 </joint>
