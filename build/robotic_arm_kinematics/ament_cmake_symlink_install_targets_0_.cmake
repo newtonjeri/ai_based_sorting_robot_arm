@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/kinematics_node" "TARGETS" "kinematics_node" "DESTINATION" "lib/robotic_arm_kinematics")

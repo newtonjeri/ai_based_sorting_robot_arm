@@ -1,0 +1,41 @@
+[0.858s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_firmware -- -j4 -l4
+[1.038s] Built target ament_cmake_python_symlink_robotic_arm_firmware
+[1.968s] running egg_info
+[2.057s] writing robotic_arm_firmware.egg-info/PKG-INFO
+[2.058s] writing dependency_links to robotic_arm_firmware.egg-info/dependency_links.txt
+[2.058s] writing top-level names to robotic_arm_firmware.egg-info/top_level.txt
+[2.232s] reading manifest file 'robotic_arm_firmware.egg-info/SOURCES.txt'
+[2.233s] writing manifest file 'robotic_arm_firmware.egg-info/SOURCES.txt'
+[2.317s] Built target ament_cmake_python_build_robotic_arm_firmware_egg
+[2.866s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_firmware -- -j4 -l4
+[2.951s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_firmware
+[2.972s] -- Install configuration: ""
+[2.974s] -- Execute custom install script
+[2.975s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/environment/pythonpath.sh
+[2.976s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/environment/pythonpath.dsv
+[2.977s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/local/lib/python3.10/dist-packages/robotic_arm_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[2.979s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/local/lib/python3.10/dist-packages/robotic_arm_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.987s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/local/lib/python3.10/dist-packages/robotic_arm_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.987s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/local/lib/python3.10/dist-packages/robotic_arm_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[2.987s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/local/lib/python3.10/dist-packages/robotic_arm_firmware/__init__.py
+[2.988s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/local/lib/python3.10/dist-packages/robotic_arm_firmware/serial_receiver.py
+[2.988s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/local/lib/python3.10/dist-packages/robotic_arm_firmware/serial_transmitter.py
+[2.988s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/lib/robotic_arm_firmware/serial_transmitter.py
+[2.988s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/lib/robotic_arm_firmware/serial_receiver.py
+[2.988s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/ament_index/resource_index/package_run_dependencies/robotic_arm_firmware
+[2.989s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/ament_index/resource_index/parent_prefix_path/robotic_arm_firmware
+[2.989s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/environment/ament_prefix_path.sh
+[2.989s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/environment/ament_prefix_path.dsv
+[2.989s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/environment/path.sh
+[2.990s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/environment/path.dsv
+[2.990s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/local_setup.bash
+[2.991s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/local_setup.sh
+[2.993s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/local_setup.zsh
+[2.994s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/local_setup.dsv
+[2.994s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/package.dsv
+[3.023s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/ament_index/resource_index/packages/robotic_arm_firmware
+[3.023s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/cmake/robotic_arm_firmwareConfig.cmake
+[3.024s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/cmake/robotic_arm_firmwareConfig-version.cmake
+[3.024s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/share/robotic_arm_firmware/package.xml
+[3.318s] Listing '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware/local/lib/python3.10/dist-packages/robotic_arm_firmware'...
+[3.358s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_firmware

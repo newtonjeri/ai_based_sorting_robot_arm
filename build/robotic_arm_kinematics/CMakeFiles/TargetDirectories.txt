@@ -1,0 +1,10 @@
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/uninstall.dir
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/robotic_arm_kinematics_uninstall.dir
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/kinematics_node.dir
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/test.dir
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/edit_cache.dir
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/rebuild_cache.dir
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/list_install_components.dir
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/install.dir
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/install/local.dir
+/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/install/strip.dir

@@ -1,0 +1,198 @@
+[19.998s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'robotic_arm_kinematics']
+[19.999s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['robotic_arm_kinematics'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f3ba977a620>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3ba977a170>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3ba977a170>>, mixin_verb=('build',))
+[20.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[20.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[20.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[20.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[20.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[20.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[20.610s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/newtonjeri/ai_based_sorting_robot_arm'
+[20.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[20.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[20.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[20.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[20.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[20.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[20.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[20.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[20.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[20.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[20.781s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[20.783s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[20.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[20.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[20.791s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[20.792s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[20.792s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[20.792s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[20.793s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[20.793s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[20.793s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[20.794s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[20.794s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[20.796s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[20.797s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[20.797s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[20.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[20.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[20.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[20.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[20.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[20.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[20.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[20.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[20.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[20.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[20.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[20.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extensions ['ignore', 'ignore_ament_install']
+[20.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extension 'ignore'
+[20.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extension 'ignore_ament_install'
+[20.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extensions ['colcon_pkg']
+[20.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extension 'colcon_pkg'
+[20.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extensions ['colcon_meta']
+[20.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extension 'colcon_meta'
+[20.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extensions ['ros']
+[20.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_controllers) by extension 'ros'
+[20.830s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotic_arm_controllers' with type 'ros.ament_cmake' and name 'robotic_arm_controllers'
+[20.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extensions ['ignore', 'ignore_ament_install']
+[20.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extension 'ignore'
+[20.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extension 'ignore_ament_install'
+[20.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extensions ['colcon_pkg']
+[20.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extension 'colcon_pkg'
+[20.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extensions ['colcon_meta']
+[20.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extension 'colcon_meta'
+[20.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extensions ['ros']
+[20.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_custom_nodes) by extension 'ros'
+[20.859s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotic_arm_custom_nodes' with type 'ros.ament_python' and name 'robotic_arm_custom_nodes'
+[20.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extensions ['ignore', 'ignore_ament_install']
+[20.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extension 'ignore'
+[20.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extension 'ignore_ament_install'
+[20.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extensions ['colcon_pkg']
+[20.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extension 'colcon_pkg'
+[20.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extensions ['colcon_meta']
+[20.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extension 'colcon_meta'
+[20.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extensions ['ros']
+[20.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_description) by extension 'ros'
+[20.873s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotic_arm_description' with type 'ros.ament_cmake' and name 'robotic_arm_description'
+[20.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extensions ['ignore', 'ignore_ament_install']
+[20.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extension 'ignore'
+[20.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extension 'ignore_ament_install'
+[20.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extensions ['colcon_pkg']
+[20.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extension 'colcon_pkg'
+[20.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extensions ['colcon_meta']
+[20.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extension 'colcon_meta'
+[20.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extensions ['ros']
+[20.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_firmware) by extension 'ros'
+[20.882s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotic_arm_firmware' with type 'ros.ament_cmake' and name 'robotic_arm_firmware'
+[20.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extensions ['ignore', 'ignore_ament_install']
+[20.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extension 'ignore'
+[20.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extension 'ignore_ament_install'
+[20.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extensions ['colcon_pkg']
+[20.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extension 'colcon_pkg'
+[20.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extensions ['colcon_meta']
+[20.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extension 'colcon_meta'
+[20.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extensions ['ros']
+[20.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_kinematics) by extension 'ros'
+[20.898s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotic_arm_kinematics' with type 'ros.ament_cmake' and name 'robotic_arm_kinematics'
+[20.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[20.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extension 'ignore'
+[20.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extension 'ignore_ament_install'
+[20.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extensions ['colcon_pkg']
+[20.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extension 'colcon_pkg'
+[20.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extensions ['colcon_meta']
+[20.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extension 'colcon_meta'
+[20.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extensions ['ros']
+[20.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm_msgs) by extension 'ros'
+[20.912s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotic_arm_msgs' with type 'ros.ament_cmake' and name 'robotic_arm_msgs'
+[20.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[20.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[20.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[20.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[20.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[21.664s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robotic_arm_controllers' in 'src/robotic_arm_controllers'
+[21.664s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robotic_arm_custom_nodes' in 'src/robotic_arm_custom_nodes'
+[21.665s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robotic_arm_description' in 'src/robotic_arm_description'
+[21.665s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robotic_arm_firmware' in 'src/robotic_arm_firmware'
+[21.665s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robotic_arm_msgs' in 'src/robotic_arm_msgs'
+[22.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[22.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[22.339s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/newtonjeri/ai_based_sorting_robot_arm/install
+[22.523s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 231 installed packages in /opt/ros/humble
+[22.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[23.409s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'cmake_args' from command line to 'None'
+[23.410s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'cmake_target' from command line to 'None'
+[23.410s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[23.410s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'cmake_clean_cache' from command line to 'False'
+[23.410s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'cmake_clean_first' from command line to 'False'
+[23.410s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'cmake_force_configure' from command line to 'False'
+[23.410s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'ament_cmake_args' from command line to 'None'
+[23.410s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'catkin_cmake_args' from command line to 'None'
+[23.410s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm_kinematics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[23.410s] DEBUG:colcon.colcon_core.verb:Building package 'robotic_arm_kinematics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics', 'merge_install': False, 'path': '/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_kinematics', 'symlink_install': True, 'test_result_base': None}
+[23.971s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[24.274s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[24.274s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_kinematics' with build type 'ament_cmake'
+[24.275s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_kinematics'
+[24.541s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[24.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[24.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/opt/ros/humble /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics -- -j4 -l4
+[66.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/opt/ros/humble /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics -- -j4 -l4
+[66.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/opt/ros/humble /usr/bin/cmake --install /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics
+[66.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotic_arm_kinematics)
+[66.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/opt/ros/humble /usr/bin/cmake --install /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics
+[66.409s] Level 1:colcon.colcon_core.environment:checking '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics' for CMake module files
+[66.410s] Level 1:colcon.colcon_core.environment:checking '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics' for CMake config files
+[66.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm_kinematics', 'cmake_prefix_path')
+[66.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/hook/cmake_prefix_path.ps1'
+[66.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/hook/cmake_prefix_path.dsv'
+[66.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/hook/cmake_prefix_path.sh'
+[66.472s] Level 1:colcon.colcon_core.environment:checking '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib'
+[66.473s] Level 1:colcon.colcon_core.environment:checking '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/bin'
+[66.473s] Level 1:colcon.colcon_core.environment:checking '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/pkgconfig/robotic_arm_kinematics.pc'
+[66.473s] Level 1:colcon.colcon_core.environment:checking '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/python3.10/site-packages'
+[66.474s] Level 1:colcon.colcon_core.environment:checking '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/bin'
+[66.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.ps1'
+[66.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.dsv'
+[66.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.sh'
+[66.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.bash'
+[66.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.zsh'
+[66.528s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/colcon-core/packages/robotic_arm_kinematics)
+[66.672s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotic_arm_kinematics)
+[66.728s] Level 1:colcon.colcon_core.environment:checking '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics' for CMake module files
+[66.730s] Level 1:colcon.colcon_core.environment:checking '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics' for CMake config files
+[66.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm_kinematics', 'cmake_prefix_path')
+[66.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/hook/cmake_prefix_path.ps1'
+[66.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/hook/cmake_prefix_path.dsv'
+[66.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/hook/cmake_prefix_path.sh'
+[66.791s] Level 1:colcon.colcon_core.environment:checking '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib'
+[66.791s] Level 1:colcon.colcon_core.environment:checking '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/bin'
+[66.792s] Level 1:colcon.colcon_core.environment:checking '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/pkgconfig/robotic_arm_kinematics.pc'
+[66.792s] Level 1:colcon.colcon_core.environment:checking '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/python3.10/site-packages'
+[66.793s] Level 1:colcon.colcon_core.environment:checking '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/bin'
+[66.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.ps1'
+[66.842s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.dsv'
+[66.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.sh'
+[66.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.bash'
+[66.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.zsh'
+[66.846s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/colcon-core/packages/robotic_arm_kinematics)
+[66.847s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[66.849s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[66.849s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[66.850s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[67.192s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[67.193s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[67.193s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[67.193s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[67.206s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[67.207s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[67.253s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/newtonjeri/ai_based_sorting_robot_arm/install/local_setup.ps1'
+[67.255s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/newtonjeri/ai_based_sorting_robot_arm/install/_local_setup_util_ps1.py'
+[67.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/newtonjeri/ai_based_sorting_robot_arm/install/setup.ps1'
+[67.306s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/newtonjeri/ai_based_sorting_robot_arm/install/local_setup.sh'
+[67.308s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/newtonjeri/ai_based_sorting_robot_arm/install/_local_setup_util_sh.py'
+[67.309s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/newtonjeri/ai_based_sorting_robot_arm/install/setup.sh'
+[67.376s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/newtonjeri/ai_based_sorting_robot_arm/install/local_setup.bash'
+[67.378s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/newtonjeri/ai_based_sorting_robot_arm/install/setup.bash'
+[67.418s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/newtonjeri/ai_based_sorting_robot_arm/install/local_setup.zsh'
+[67.419s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/newtonjeri/ai_based_sorting_robot_arm/install/setup.zsh'

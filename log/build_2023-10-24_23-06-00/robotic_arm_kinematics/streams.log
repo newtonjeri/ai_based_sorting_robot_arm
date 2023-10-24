@@ -1,0 +1,30 @@
+[0.142s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/opt/ros/humble /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics -- -j4 -l4
+[0.215s] [35m[1mConsolidate compiler generated dependencies of target kinematics_node[0m
+[0.245s] [ 50%] [32mBuilding CXX object CMakeFiles/kinematics_node.dir/src/kinematics_node.cpp.o[0m
+[5.486s] [01m[K/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_kinematics/src/kinematics_node.cpp:[m[K In member function ‘[01m[Kint KinematicsNode::forward_kinematics(double, double, double, double, double, double*, double*, double*)[m[K’:
+[5.487s] [01m[K/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_kinematics/src/kinematics_node.cpp:92:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta_5[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.487s]    92 | int KinematicsNode::forward_kinematics(double theta_1, double theta_2, double theta_3, double theta_4, [01;35m[Kdouble theta_5[m[K, double* x, double* y, double* z)
+[5.487s]       |                                                                                                        [01;35m[K~~~~~~~^~~~~~~[m[K
+[9.961s] [100%] [32m[1mLinking CXX executable kinematics_node[0m
+[11.013s] [100%] Built target kinematics_node
+[11.034s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/opt/ros/humble /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics -- -j4 -l4
+[11.091s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/opt/ros/humble /usr/bin/cmake --install /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics
+[11.102s] -- Install configuration: ""
+[11.103s] -- Execute custom install script
+[11.103s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/lib/robotic_arm_kinematics/kinematics_node
+[11.104s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/ament_index/resource_index/package_run_dependencies/robotic_arm_kinematics
+[11.104s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/ament_index/resource_index/parent_prefix_path/robotic_arm_kinematics
+[11.105s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/environment/ament_prefix_path.sh
+[11.105s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/environment/ament_prefix_path.dsv
+[11.106s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/environment/path.sh
+[11.106s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/environment/path.dsv
+[11.107s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/local_setup.bash
+[11.107s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/local_setup.sh
+[11.108s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/local_setup.zsh
+[11.108s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/local_setup.dsv
+[11.108s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.dsv
+[11.122s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/ament_index/resource_index/packages/robotic_arm_kinematics
+[11.123s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/cmake/robotic_arm_kinematicsConfig.cmake
+[11.123s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/cmake/robotic_arm_kinematicsConfig-version.cmake
+[11.124s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_kinematics/share/robotic_arm_kinematics/package.xml
+[11.128s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/opt/ros/humble /usr/bin/cmake --install /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics

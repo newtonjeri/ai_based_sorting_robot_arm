@@ -1,0 +1,118 @@
+[0.220s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_msgs -- -j4 -l4
+[0.547s] [  3%] Built target robotic_arm_msgs__cpp
+[0.566s] [ 12%] Built target robotic_arm_msgs__rosidl_generator_c
+[0.600s] [ 12%] Built target ament_cmake_python_symlink_robotic_arm_msgs
+[0.702s] [ 22%] Built target robotic_arm_msgs__rosidl_typesupport_introspection_cpp
+[0.718s] [ 32%] Built target robotic_arm_msgs__rosidl_typesupport_cpp
+[0.719s] [ 41%] Built target robotic_arm_msgs__rosidl_typesupport_fastrtps_cpp
+[0.731s] [ 51%] Built target robotic_arm_msgs__rosidl_typesupport_fastrtps_c
+[0.814s] [ 61%] Built target robotic_arm_msgs__rosidl_typesupport_introspection_c
+[0.870s] [ 70%] Built target robotic_arm_msgs__rosidl_typesupport_c
+[0.938s] [ 70%] Built target robotic_arm_msgs
+[1.000s] [ 74%] Built target robotic_arm_msgs__py
+[1.064s] [ 80%] Built target robotic_arm_msgs__rosidl_generator_py
+[1.161s] [ 87%] Built target robotic_arm_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.162s] [ 93%] Built target robotic_arm_msgs__rosidl_typesupport_introspection_c__pyext
+[1.193s] [100%] Built target robotic_arm_msgs__rosidl_typesupport_c__pyext
+[1.965s] running egg_info
+[2.044s] writing robotic_arm_msgs.egg-info/PKG-INFO
+[2.045s] writing dependency_links to robotic_arm_msgs.egg-info/dependency_links.txt
+[2.046s] writing top-level names to robotic_arm_msgs.egg-info/top_level.txt
+[2.350s] reading manifest file 'robotic_arm_msgs.egg-info/SOURCES.txt'
+[2.353s] writing manifest file 'robotic_arm_msgs.egg-info/SOURCES.txt'
+[2.492s] [100%] Built target ament_cmake_python_build_robotic_arm_msgs_egg
+[2.547s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_msgs -- -j4 -l4
+[2.780s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_msgs
+[2.839s] -- Install configuration: ""
+[2.842s] -- Execute custom install script
+[2.856s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/ament_index/resource_index/rosidl_interfaces/robotic_arm_msgs
+[2.859s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__functions.h
+[2.861s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__struct.h
+[2.863s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__type_support.h
+[2.864s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/joint_angles.h
+[2.865s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.870s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/environment/library_path.sh
+[2.878s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/environment/library_path.dsv
+[2.881s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__rosidl_typesupport_fastrtps_c.h
+[2.887s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.896s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__rosidl_typesupport_introspection_c.h
+[2.897s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.898s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__builder.hpp
+[2.900s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__struct.hpp
+[2.900s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__traits.hpp
+[2.902s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/joint_angles.hpp
+[2.927s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[2.927s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.929s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/include/robotic_arm_msgs/robotic_arm_msgs/msg/detail/joint_angles__rosidl_typesupport_introspection_cpp.hpp
+[2.930s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/environment/pythonpath.sh
+[2.931s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/environment/pythonpath.dsv
+[2.932s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.932s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.948s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.948s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.949s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/__init__.py
+[2.949s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/_robotic_arm_msgs_s.ep.rosidl_typesupport_c.c
+[2.949s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/_robotic_arm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.949s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/_robotic_arm_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.949s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/librobotic_arm_msgs__rosidl_generator_py.so
+[2.949s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/msg/__init__.py
+[2.950s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/msg/_joint_angles.py
+[2.962s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/msg/_joint_angles_s.c
+[2.962s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/robotic_arm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.965s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/robotic_arm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.965s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/robotic_arm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.966s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/robotic_arm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.967s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/robotic_arm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.969s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/robotic_arm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.970s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/msg/JointAngles.idl
+[2.970s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/msg/JointAngles.msg
+[2.971s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/ament_index/resource_index/package_run_dependencies/robotic_arm_msgs
+[2.972s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/ament_index/resource_index/parent_prefix_path/robotic_arm_msgs
+[2.973s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/environment/ament_prefix_path.sh
+[2.984s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/environment/ament_prefix_path.dsv
+[2.984s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/environment/path.sh
+[2.985s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/environment/path.dsv
+[2.986s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/local_setup.bash
+[2.986s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/local_setup.sh
+[2.987s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/local_setup.zsh
+[2.989s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/local_setup.dsv
+[2.990s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/package.dsv
+[3.018s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/ament_index/resource_index/packages/robotic_arm_msgs
+[3.019s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/rosidl_cmake-extras.cmake
+[3.019s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.019s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.019s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.019s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.020s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.020s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.020s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgsConfig.cmake
+[3.020s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgsConfig-version.cmake
+[3.020s] -- Up-to-date symlink: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/package.xml
+[3.020s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/librobotic_arm_msgs__rosidl_generator_c.so
+[3.020s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/librobotic_arm_msgs__rosidl_typesupport_fastrtps_c.so
+[3.021s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/librobotic_arm_msgs__rosidl_typesupport_introspection_c.so
+[3.021s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/librobotic_arm_msgs__rosidl_typesupport_c.so
+[3.021s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/librobotic_arm_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.027s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/librobotic_arm_msgs__rosidl_typesupport_introspection_cpp.so
+[3.028s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/librobotic_arm_msgs__rosidl_typesupport_cpp.so
+[3.194s] Listing '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs'...
+[3.194s] Listing '/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages/robotic_arm_msgs/msg'...
+[3.226s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib/librobotic_arm_msgs__rosidl_generator_py.so
+[3.227s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_generator_cExport.cmake
+[3.227s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.227s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.227s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.228s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.228s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.228s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgs__rosidl_typesupport_cExport.cmake
+[3.228s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.228s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_generator_cppExport.cmake
+[3.229s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.229s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.229s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.229s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.229s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgs__rosidl_typesupport_cppExport.cmake
+[3.230s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/robotic_arm_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.230s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_generator_pyExport.cmake
+[3.230s] -- Up-to-date: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_msgs/share/robotic_arm_msgs/cmake/export_robotic_arm_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.243s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_msgs

@@ -1,0 +1,24 @@
+[1.161s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_controllers -- -j4 -l4
+[2.346s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_controllers -- -j4 -l4
+[2.517s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_controllers
+[2.539s] -- Install configuration: ""
+[2.539s] -- Execute custom install script
+[2.543s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/launch/__pycache__/robot_arm_controllers.launch.cpython-310.pyc
+[2.566s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/launch/robot_arm_controllers.launch.py
+[2.616s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/config/robot_arm_controllers.yaml
+[2.679s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/ament_index/resource_index/package_run_dependencies/robotic_arm_controllers
+[2.733s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/ament_index/resource_index/parent_prefix_path/robotic_arm_controllers
+[2.784s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/environment/ament_prefix_path.sh
+[2.818s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/environment/ament_prefix_path.dsv
+[2.895s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/environment/path.sh
+[2.944s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/environment/path.dsv
+[2.994s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/local_setup.bash
+[3.043s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/local_setup.sh
+[3.083s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/local_setup.zsh
+[3.139s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/local_setup.dsv
+[3.174s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/package.dsv
+[3.212s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/ament_index/resource_index/packages/robotic_arm_controllers
+[3.248s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/cmake/robotic_arm_controllersConfig.cmake
+[3.289s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/cmake/robotic_arm_controllersConfig-version.cmake
+[3.327s] -- Symlinking: /home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers/share/robotic_arm_controllers/package.xml
+[3.390s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_controllers

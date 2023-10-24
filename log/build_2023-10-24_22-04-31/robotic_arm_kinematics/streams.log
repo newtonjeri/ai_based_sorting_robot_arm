@@ -1,0 +1,40 @@
+[0.951s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics -- -j4 -l4
+[1.069s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.147s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.291s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[3.892s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.909s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.957s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.030s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.494s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.508s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[15.108s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[27.505s] -- Found FastRTPS: /opt/ros/humble/include  
+[52.589s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[52.640s] -- Looking for pthread.h
+[53.755s] -- Looking for pthread.h - found
+[53.757s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[54.608s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[54.611s] -- Found Threads: TRUE  
+[67.216s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[67.216s]   By not providing "Findtrajectrory_msgs.cmake" in CMAKE_MODULE_PATH this
+[67.216s]   project has asked CMake to find a package configuration file provided by
+[67.216s]   "trajectrory_msgs", but CMake did not find one.
+[67.217s] 
+[67.217s]   Could not find a package configuration file provided by "trajectrory_msgs"
+[67.217s]   with any of the following names:
+[67.217s] 
+[67.217s]     trajectrory_msgsConfig.cmake
+[67.218s]     trajectrory_msgs-config.cmake
+[67.218s] 
+[67.218s]   Add the installation prefix of "trajectrory_msgs" to CMAKE_PREFIX_PATH or
+[67.218s]   set "trajectrory_msgs_DIR" to a directory containing one of the above
+[67.218s]   files.  If "trajectrory_msgs" provides a separate development package or
+[67.218s]   SDK, be sure it has been installed.
+[67.219s] 
+[67.219s] [0m
+[67.219s] -- Configuring incomplete, errors occurred!
+[67.225s] See also "/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics/CMakeFiles/CMakeOutput.log".
+[67.245s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[67.256s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_kinematics -- -j4 -l4

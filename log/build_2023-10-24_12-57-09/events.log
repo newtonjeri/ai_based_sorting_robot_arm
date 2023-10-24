@@ -1,0 +1,693 @@
+[0.000000] (-) TimerEvent: {}
+[0.001036] (robotic_arm_controllers) JobQueued: {'identifier': 'robotic_arm_controllers', 'dependencies': OrderedDict()}
+[0.001281] (robotic_arm_custom_nodes) JobQueued: {'identifier': 'robotic_arm_custom_nodes', 'dependencies': OrderedDict()}
+[0.001400] (robotic_arm_description) JobQueued: {'identifier': 'robotic_arm_description', 'dependencies': OrderedDict()}
+[0.001504] (robotic_arm_firmware) JobQueued: {'identifier': 'robotic_arm_firmware', 'dependencies': OrderedDict()}
+[0.001614] (robotic_arm_kinematics) JobQueued: {'identifier': 'robotic_arm_kinematics', 'dependencies': OrderedDict()}
+[0.001702] (robotic_arm_msgs) JobQueued: {'identifier': 'robotic_arm_msgs', 'dependencies': OrderedDict()}
+[0.002973] (robotic_arm_controllers) JobStarted: {'identifier': 'robotic_arm_controllers'}
+[0.100934] (-) TimerEvent: {}
+[0.105395] (robotic_arm_custom_nodes) JobStarted: {'identifier': 'robotic_arm_custom_nodes'}
+[0.203297] (-) TimerEvent: {}
+[0.269689] (robotic_arm_description) JobStarted: {'identifier': 'robotic_arm_description'}
+[0.304189] (-) TimerEvent: {}
+[0.410954] (-) TimerEvent: {}
+[0.416285] (robotic_arm_firmware) JobStarted: {'identifier': 'robotic_arm_firmware'}
+[0.514430] (-) TimerEvent: {}
+[0.543464] (robotic_arm_controllers) JobProgress: {'identifier': 'robotic_arm_controllers', 'progress': 'cmake'}
+[0.544153] (robotic_arm_controllers) Command: {'cmd': ['/usr/bin/cmake', '/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_controllers', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_controllers'], 'cwd': '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_controllers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'newtonjeri'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/newtonjeri'), ('OLDPWD', '/home/newtonjeri'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'newtonjeri'), ('NAME', 'NewtonsPC'), ('WSL_INTEROP', '/run/WSL/5754_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/newtonjeri/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/newto/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/newto/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/newto/AppData/Local/GitHubDesktop/bin:/mnt/c/OpenSim 4.2/bin:/snap/bin'), ('WT_SESSION', '46381d8d-2158-453e-ab13-5aa870e80716'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_controllers'), ('PICO_SDK_PATH', '/home/newtonjeri/pico-sdk'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.615139] (-) TimerEvent: {}
+[0.717032] (-) TimerEvent: {}
+[0.819235] (-) TimerEvent: {}
+[0.923967] (-) TimerEvent: {}
+[1.028761] (-) TimerEvent: {}
+[1.129420] (-) TimerEvent: {}
+[1.230100] (-) TimerEvent: {}
+[1.330729] (-) TimerEvent: {}
+[1.431652] (-) TimerEvent: {}
+[1.535044] (-) TimerEvent: {}
+[1.637787] (-) TimerEvent: {}
+[1.658508] (robotic_arm_description) JobProgress: {'identifier': 'robotic_arm_description', 'progress': 'cmake'}
+[1.661591] (robotic_arm_description) Command: {'cmd': ['/usr/bin/cmake', '/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_description'], 'cwd': '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'newtonjeri'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/newtonjeri'), ('OLDPWD', '/home/newtonjeri'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'newtonjeri'), ('NAME', 'NewtonsPC'), ('WSL_INTEROP', '/run/WSL/5754_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/newtonjeri/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/newto/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/newto/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/newto/AppData/Local/GitHubDesktop/bin:/mnt/c/OpenSim 4.2/bin:/snap/bin'), ('WT_SESSION', '46381d8d-2158-453e-ab13-5aa870e80716'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description'), ('PICO_SDK_PATH', '/home/newtonjeri/pico-sdk'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.667284] (robotic_arm_controllers) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.674230] (robotic_arm_firmware) JobProgress: {'identifier': 'robotic_arm_firmware', 'progress': 'cmake'}
+[1.676552] (robotic_arm_firmware) Command: {'cmd': ['/usr/bin/cmake', '/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_firmware', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/newtonjeri/ai_based_sorting_robot_arm/install/robotic_arm_firmware'], 'cwd': '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_firmware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'newtonjeri'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/newtonjeri'), ('OLDPWD', '/home/newtonjeri'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'newtonjeri'), ('NAME', 'NewtonsPC'), ('WSL_INTEROP', '/run/WSL/5754_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/newtonjeri/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/newto/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/newto/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/newto/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/newto/AppData/Local/GitHubDesktop/bin:/mnt/c/OpenSim 4.2/bin:/snap/bin'), ('WT_SESSION', '46381d8d-2158-453e-ab13-5aa870e80716'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_firmware'), ('PICO_SDK_PATH', '/home/newtonjeri/pico-sdk'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.738722] (-) TimerEvent: {}
+[1.839588] (-) TimerEvent: {}
+[1.941502] (-) TimerEvent: {}
+[2.043282] (-) TimerEvent: {}
+[2.144272] (-) TimerEvent: {}
+[2.245366] (-) TimerEvent: {}
+[2.345139] (robotic_arm_firmware) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.345661] (-) TimerEvent: {}
+[2.347221] (robotic_arm_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.447469] (-) TimerEvent: {}
+[2.549778] (-) TimerEvent: {}
+[2.650913] (-) TimerEvent: {}
+[2.753356] (-) TimerEvent: {}
+[2.854836] (-) TimerEvent: {}
+[2.956940] (-) TimerEvent: {}
+[3.060382] (-) TimerEvent: {}
+[3.161627] (-) TimerEvent: {}
+[3.262285] (-) TimerEvent: {}
+[3.363349] (-) TimerEvent: {}
+[3.468194] (-) TimerEvent: {}
+[3.569232] (-) TimerEvent: {}
+[3.670403] (-) TimerEvent: {}
+[3.771433] (-) TimerEvent: {}
+[3.872413] (-) TimerEvent: {}
+[3.928552] (robotic_arm_custom_nodes) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 85, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 175, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "/home/newtonjeri/ai_based_sorting_robot_arm/src/robotic_arm_custom_nodes/setup.py", line 5, in <module>\n    setup(\n  File "/home/newtonjeri/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 144, in setup\n    return distutils.core.setup(**attrs)\n  File "/usr/lib/python3.10/distutils/core.py", line 134, in setup\n    ok = dist.parse_command_line()\n  File "/usr/lib/python3.10/distutils/dist.py", line 480, in parse_command_line\n    if self.handle_display_options(option_order):\n  File "/home/newtonjeri/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1003, in handle_display_options\n    return _Distribution.handle_display_options(self, option_order)\n  File "/usr/lib/python3.10/distutils/dist.py", line 683, in handle_display_options\n    self.print_commands()\n  File "/home/newtonjeri/.local/lib/python3.10/site-packages/setuptools/dist.py", line 773, in print_commands\n    cmdclass = ep.resolve()\n  File "/home/newtonjeri/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2459, in resolve\n    module = __import__(self.module_name, fromlist=[\'__name__\'], level=0)\n  File "/home/newtonjeri/.local/lib/python3.10/site-packages/setuptools/command/bdist_wininst.py", line 1, in <module>\n    import distutils.command.bdist_wininst as orig\nModuleNotFoundError: No module named \'distutils.command.bdist_wininst\'\n\n'}
+[3.930447] (robotic_arm_custom_nodes) JobEnded: {'identifier': 'robotic_arm_custom_nodes', 'rc': 1}
+[3.972963] (-) TimerEvent: {}
+[4.074045] (-) TimerEvent: {}
+[4.175317] (-) TimerEvent: {}
+[4.256439] (robotic_arm_controllers) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.277088] (-) TimerEvent: {}
+[4.379353] (-) TimerEvent: {}
+[4.481040] (-) TimerEvent: {}
+[4.572289] (robotic_arm_firmware) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.581411] (-) TimerEvent: {}
+[4.682533] (-) TimerEvent: {}
+[4.783561] (-) TimerEvent: {}
+[4.885015] (-) TimerEvent: {}
+[4.986185] (-) TimerEvent: {}
+[5.087591] (-) TimerEvent: {}
+[5.189025] (-) TimerEvent: {}
+[5.289955] (-) TimerEvent: {}
+[5.391250] (-) TimerEvent: {}
+[5.492269] (-) TimerEvent: {}
+[5.505796] (robotic_arm_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.592720] (-) TimerEvent: {}
+[5.694179] (-) TimerEvent: {}
+[5.798074] (-) TimerEvent: {}
+[5.899358] (-) TimerEvent: {}
+[6.000121] (-) TimerEvent: {}
+[6.101081] (-) TimerEvent: {}
+[6.202028] (-) TimerEvent: {}
+[6.303262] (-) TimerEvent: {}
+[6.405596] (-) TimerEvent: {}
+[6.508736] (-) TimerEvent: {}
+[6.609759] (-) TimerEvent: {}
+[6.711546] (-) TimerEvent: {}
+[6.813313] (-) TimerEvent: {}
+[6.915019] (-) TimerEvent: {}
+[7.016189] (-) TimerEvent: {}
+[7.117428] (-) TimerEvent: {}
+[7.218943] (-) TimerEvent: {}
+[7.321263] (-) TimerEvent: {}
+[7.422343] (-) TimerEvent: {}
+[7.516779] (robotic_arm_controllers) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.522835] (-) TimerEvent: {}
+[7.623867] (-) TimerEvent: {}
+[7.724712] (-) TimerEvent: {}
+[7.827220] (-) TimerEvent: {}
+[7.922689] (robotic_arm_firmware) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.927647] (-) TimerEvent: {}
+[8.029228] (-) TimerEvent: {}
+[8.130685] (-) TimerEvent: {}
+[8.235464] (-) TimerEvent: {}
+[8.337506] (-) TimerEvent: {}
+[8.378423] (robotic_arm_controllers) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.419139] (robotic_arm_controllers) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.423656] (robotic_arm_controllers) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.424898] (robotic_arm_controllers) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.432598] (robotic_arm_controllers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.438312] (-) TimerEvent: {}
+[8.541285] (-) TimerEvent: {}
+[8.643479] (-) TimerEvent: {}
+[8.712898] (robotic_arm_firmware) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.744344] (-) TimerEvent: {}
+[8.753258] (robotic_arm_firmware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.753948] (robotic_arm_firmware) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.755186] (robotic_arm_firmware) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.772855] (robotic_arm_firmware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.792159] (robotic_arm_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.845061] (-) TimerEvent: {}
+[8.946861] (-) TimerEvent: {}
+[9.049859] (-) TimerEvent: {}
+[9.150917] (-) TimerEvent: {}
+[9.251825] (-) TimerEvent: {}
+[9.352853] (-) TimerEvent: {}
+[9.373271] (robotic_arm_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.395523] (robotic_arm_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.403388] (robotic_arm_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.403717] (robotic_arm_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.409272] (robotic_arm_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.409862] (robotic_arm_controllers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.429270] (robotic_arm_firmware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.438296] (robotic_arm_controllers) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.439153] (robotic_arm_controllers) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.440485] (robotic_arm_controllers) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.443120] (robotic_arm_firmware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.444237] (robotic_arm_firmware) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.445928] (robotic_arm_firmware) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.446448] (robotic_arm_controllers) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.453338] (robotic_arm_firmware) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.453702] (-) TimerEvent: {}
+[9.554647] (-) TimerEvent: {}
+[9.655803] (-) TimerEvent: {}
+[9.758043] (-) TimerEvent: {}
+[9.858730] (-) TimerEvent: {}
+[9.959435] (-) TimerEvent: {}
+[10.016044] (robotic_arm_controllers) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[10.059718] (-) TimerEvent: {}
+[10.073505] (robotic_arm_firmware) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[10.160006] (-) TimerEvent: {}
+[10.249541] (robotic_arm_controllers) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[10.260252] (-) TimerEvent: {}
+[10.302287] (robotic_arm_firmware) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[10.319576] (robotic_arm_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.324718] (robotic_arm_controllers) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.343143] (robotic_arm_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[10.344003] (robotic_arm_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.345405] (robotic_arm_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.351227] (robotic_arm_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[10.360550] (-) TimerEvent: {}
+[10.365389] (robotic_arm_firmware) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[10.462374] (-) TimerEvent: {}
+[10.564456] (-) TimerEvent: {}
+[10.665677] (-) TimerEvent: {}
+[10.767052] (-) TimerEvent: {}
+[10.868482] (-) TimerEvent: {}
+[10.969772] (-) TimerEvent: {}
+[11.070523] (-) TimerEvent: {}
+[11.091286] (robotic_arm_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[11.170856] (-) TimerEvent: {}
+[11.272833] (-) TimerEvent: {}
+[11.339851] (robotic_arm_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[11.373417] (-) TimerEvent: {}
+[11.382702] (robotic_arm_firmware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[11.407826] (robotic_arm_firmware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[11.430500] (robotic_arm_description) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[11.439814] (robotic_arm_firmware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[11.474893] (-) TimerEvent: {}
+[11.495085] (robotic_arm_firmware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.566368] (robotic_arm_firmware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.575660] (-) TimerEvent: {}
+[11.676909] (-) TimerEvent: {}
+[11.781057] (-) TimerEvent: {}
+[11.883516] (-) TimerEvent: {}
+[11.906873] (robotic_arm_firmware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[11.921390] (robotic_arm_firmware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.984090] (-) TimerEvent: {}
+[12.085253] (-) TimerEvent: {}
+[12.186522] (-) TimerEvent: {}
+[12.288949] (-) TimerEvent: {}
+[12.391255] (-) TimerEvent: {}
+[12.492927] (-) TimerEvent: {}
+[12.595182] (-) TimerEvent: {}
+[12.697970] (-) TimerEvent: {}
+[12.799976] (-) TimerEvent: {}
+[12.900865] (-) TimerEvent: {}
+[13.002204] (-) TimerEvent: {}
+[13.103448] (-) TimerEvent: {}
+[13.204626] (-) TimerEvent: {}
+[13.306266] (-) TimerEvent: {}
+[13.407668] (-) TimerEvent: {}
+[13.509132] (-) TimerEvent: {}
+[13.610205] (-) TimerEvent: {}
+[13.711315] (-) TimerEvent: {}
+[13.812251] (-) TimerEvent: {}
+[13.913298] (-) TimerEvent: {}
+[14.014349] (-) TimerEvent: {}
+[14.115517] (-) TimerEvent: {}
+[14.216743] (-) TimerEvent: {}
+[14.317752] (-) TimerEvent: {}
+[14.419177] (-) TimerEvent: {}
+[14.519924] (-) TimerEvent: {}
+[14.620714] (-) TimerEvent: {}
+[14.721830] (-) TimerEvent: {}
+[14.823016] (-) TimerEvent: {}
+[14.924674] (-) TimerEvent: {}
+[15.025917] (-) TimerEvent: {}
+[15.127181] (-) TimerEvent: {}
+[15.229266] (-) TimerEvent: {}
+[15.330236] (-) TimerEvent: {}
+[15.431072] (-) TimerEvent: {}
+[15.531988] (-) TimerEvent: {}
+[15.633755] (-) TimerEvent: {}
+[15.735465] (-) TimerEvent: {}
+[15.839240] (-) TimerEvent: {}
+[15.940903] (-) TimerEvent: {}
+[16.042775] (-) TimerEvent: {}
+[16.144361] (-) TimerEvent: {}
+[16.245474] (-) TimerEvent: {}
+[16.347851] (-) TimerEvent: {}
+[16.449236] (-) TimerEvent: {}
+[16.550010] (-) TimerEvent: {}
+[16.651574] (-) TimerEvent: {}
+[16.756136] (-) TimerEvent: {}
+[16.857871] (-) TimerEvent: {}
+[16.959125] (-) TimerEvent: {}
+[17.060107] (-) TimerEvent: {}
+[17.162526] (-) TimerEvent: {}
+[17.265754] (-) TimerEvent: {}
+[17.367060] (-) TimerEvent: {}
+[17.468432] (-) TimerEvent: {}
+[17.569556] (-) TimerEvent: {}
+[17.671168] (-) TimerEvent: {}
+[17.773124] (-) TimerEvent: {}
+[17.874704] (-) TimerEvent: {}
+[17.978067] (-) TimerEvent: {}
+[18.081969] (-) TimerEvent: {}
+[18.110617] (robotic_arm_controllers) StdoutLine: {'line': b'-- Configuring done\n'}
+[18.127571] (robotic_arm_controllers) StdoutLine: {'line': b'-- Generating done\n'}
+[18.139863] (robotic_arm_controllers) StdoutLine: {'line': b'-- Build files have been written to: /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_controllers\n'}
+[18.154944] (robotic_arm_controllers) JobEnded: {'identifier': 'robotic_arm_controllers', 'rc': 'SIGINT'}
+[18.182393] (-) TimerEvent: {}
+[18.280177] (robotic_arm_firmware) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[18.282736] (-) TimerEvent: {}
+[18.383857] (-) TimerEvent: {}
+[18.486983] (-) TimerEvent: {}
+[18.588641] (-) TimerEvent: {}
+[18.689972] (-) TimerEvent: {}
+[18.791191] (-) TimerEvent: {}
+[18.892275] (-) TimerEvent: {}
+[18.993342] (-) TimerEvent: {}
+[19.095163] (-) TimerEvent: {}
+[19.196323] (-) TimerEvent: {}
+[19.297599] (-) TimerEvent: {}
+[19.399208] (-) TimerEvent: {}
+[19.500169] (-) TimerEvent: {}
+[19.600992] (-) TimerEvent: {}
+[19.701808] (-) TimerEvent: {}
+[19.802845] (-) TimerEvent: {}
+[19.903897] (-) TimerEvent: {}
+[20.005411] (-) TimerEvent: {}
+[20.107440] (-) TimerEvent: {}
+[20.208927] (-) TimerEvent: {}
+[20.309615] (-) TimerEvent: {}
+[20.410924] (-) TimerEvent: {}
+[20.511797] (-) TimerEvent: {}
+[20.613508] (-) TimerEvent: {}
+[20.715539] (-) TimerEvent: {}
+[20.816663] (-) TimerEvent: {}
+[20.919574] (-) TimerEvent: {}
+[21.020377] (-) TimerEvent: {}
+[21.121200] (-) TimerEvent: {}
+[21.222083] (-) TimerEvent: {}
+[21.323082] (-) TimerEvent: {}
+[21.424289] (-) TimerEvent: {}
+[21.525343] (-) TimerEvent: {}
+[21.626806] (-) TimerEvent: {}
+[21.728292] (-) TimerEvent: {}
+[21.829118] (-) TimerEvent: {}
+[21.929876] (-) TimerEvent: {}
+[22.030559] (-) TimerEvent: {}
+[22.131310] (-) TimerEvent: {}
+[22.232193] (-) TimerEvent: {}
+[22.334527] (-) TimerEvent: {}
+[22.435583] (-) TimerEvent: {}
+[22.536892] (-) TimerEvent: {}
+[22.638452] (-) TimerEvent: {}
+[22.740234] (-) TimerEvent: {}
+[22.841637] (-) TimerEvent: {}
+[22.942598] (-) TimerEvent: {}
+[23.043764] (-) TimerEvent: {}
+[23.144959] (-) TimerEvent: {}
+[23.246924] (-) TimerEvent: {}
+[23.348558] (-) TimerEvent: {}
+[23.449404] (-) TimerEvent: {}
+[23.468284] (robotic_arm_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[23.482627] (robotic_arm_description) StdoutLine: {'line': b'-- Generating done\n'}
+[23.486464] (robotic_arm_description) StdoutLine: {'line': b'-- Build files have been written to: /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_description\n'}
+[23.508516] (robotic_arm_description) JobEnded: {'identifier': 'robotic_arm_description', 'rc': 'SIGINT'}
+[23.549736] (-) TimerEvent: {}
+[23.650566] (-) TimerEvent: {}
+[23.751593] (-) TimerEvent: {}
+[23.853093] (-) TimerEvent: {}
+[23.957759] (-) TimerEvent: {}
+[24.059212] (-) TimerEvent: {}
+[24.162266] (-) TimerEvent: {}
+[24.263737] (-) TimerEvent: {}
+[24.366305] (-) TimerEvent: {}
+[24.467623] (-) TimerEvent: {}
+[24.569536] (-) TimerEvent: {}
+[24.671041] (-) TimerEvent: {}
+[24.772001] (-) TimerEvent: {}
+[24.874415] (-) TimerEvent: {}
+[24.977145] (-) TimerEvent: {}
+[25.080091] (-) TimerEvent: {}
+[25.183362] (-) TimerEvent: {}
+[25.284725] (-) TimerEvent: {}
+[25.387873] (-) TimerEvent: {}
+[25.490056] (-) TimerEvent: {}
+[25.590796] (-) TimerEvent: {}
+[25.693396] (-) TimerEvent: {}
+[25.796139] (-) TimerEvent: {}
+[25.898142] (-) TimerEvent: {}
+[25.999699] (-) TimerEvent: {}
+[26.101362] (-) TimerEvent: {}
+[26.203732] (-) TimerEvent: {}
+[26.305586] (-) TimerEvent: {}
+[26.410378] (-) TimerEvent: {}
+[26.515097] (-) TimerEvent: {}
+[26.619837] (-) TimerEvent: {}
+[26.720616] (-) TimerEvent: {}
+[26.821568] (-) TimerEvent: {}
+[26.922597] (-) TimerEvent: {}
+[27.023562] (-) TimerEvent: {}
+[27.124402] (-) TimerEvent: {}
+[27.225515] (-) TimerEvent: {}
+[27.326870] (-) TimerEvent: {}
+[27.428912] (-) TimerEvent: {}
+[27.531247] (-) TimerEvent: {}
+[27.632529] (-) TimerEvent: {}
+[27.734427] (-) TimerEvent: {}
+[27.835470] (-) TimerEvent: {}
+[27.936649] (-) TimerEvent: {}
+[28.037985] (-) TimerEvent: {}
+[28.139131] (-) TimerEvent: {}
+[28.239939] (-) TimerEvent: {}
+[28.344142] (-) TimerEvent: {}
+[28.450187] (-) TimerEvent: {}
+[28.551089] (-) TimerEvent: {}
+[28.653535] (-) TimerEvent: {}
+[28.756048] (-) TimerEvent: {}
+[28.858740] (-) TimerEvent: {}
+[28.961209] (-) TimerEvent: {}
+[29.062063] (-) TimerEvent: {}
+[29.163103] (-) TimerEvent: {}
+[29.264082] (-) TimerEvent: {}
+[29.365107] (-) TimerEvent: {}
+[29.471427] (-) TimerEvent: {}
+[29.574184] (-) TimerEvent: {}
+[29.675852] (-) TimerEvent: {}
+[29.776764] (-) TimerEvent: {}
+[29.877965] (-) TimerEvent: {}
+[29.913654] (robotic_arm_firmware) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[29.978983] (-) TimerEvent: {}
+[30.082020] (-) TimerEvent: {}
+[30.182947] (-) TimerEvent: {}
+[30.284690] (-) TimerEvent: {}
+[30.387450] (-) TimerEvent: {}
+[30.489809] (-) TimerEvent: {}
+[30.592446] (-) TimerEvent: {}
+[30.695081] (-) TimerEvent: {}
+[30.796427] (-) TimerEvent: {}
+[30.897706] (-) TimerEvent: {}
+[30.999267] (-) TimerEvent: {}
+[31.100749] (-) TimerEvent: {}
+[31.203235] (-) TimerEvent: {}
+[31.305990] (-) TimerEvent: {}
+[31.408179] (-) TimerEvent: {}
+[31.510058] (-) TimerEvent: {}
+[31.611860] (-) TimerEvent: {}
+[31.712919] (-) TimerEvent: {}
+[31.815820] (-) TimerEvent: {}
+[31.918010] (-) TimerEvent: {}
+[32.019184] (-) TimerEvent: {}
+[32.121756] (-) TimerEvent: {}
+[32.223752] (-) TimerEvent: {}
+[32.325043] (-) TimerEvent: {}
+[32.426301] (-) TimerEvent: {}
+[32.528559] (-) TimerEvent: {}
+[32.630875] (-) TimerEvent: {}
+[32.733590] (-) TimerEvent: {}
+[32.836947] (-) TimerEvent: {}
+[32.938344] (-) TimerEvent: {}
+[33.039125] (-) TimerEvent: {}
+[33.141487] (-) TimerEvent: {}
+[33.242273] (-) TimerEvent: {}
+[33.344032] (-) TimerEvent: {}
+[33.446084] (-) TimerEvent: {}
+[33.547463] (-) TimerEvent: {}
+[33.649080] (-) TimerEvent: {}
+[33.750777] (-) TimerEvent: {}
+[33.851863] (-) TimerEvent: {}
+[33.952966] (-) TimerEvent: {}
+[34.053976] (-) TimerEvent: {}
+[34.158753] (-) TimerEvent: {}
+[34.263523] (-) TimerEvent: {}
+[34.367289] (-) TimerEvent: {}
+[34.472200] (-) TimerEvent: {}
+[34.576770] (-) TimerEvent: {}
+[34.679125] (-) TimerEvent: {}
+[34.779702] (-) TimerEvent: {}
+[34.880421] (-) TimerEvent: {}
+[34.981381] (-) TimerEvent: {}
+[35.082392] (-) TimerEvent: {}
+[35.183241] (-) TimerEvent: {}
+[35.285551] (-) TimerEvent: {}
+[35.387742] (-) TimerEvent: {}
+[35.489912] (-) TimerEvent: {}
+[35.592175] (-) TimerEvent: {}
+[35.694118] (-) TimerEvent: {}
+[35.795286] (-) TimerEvent: {}
+[35.896282] (-) TimerEvent: {}
+[35.997790] (-) TimerEvent: {}
+[36.102635] (-) TimerEvent: {}
+[36.206488] (-) TimerEvent: {}
+[36.310348] (-) TimerEvent: {}
+[36.411040] (-) TimerEvent: {}
+[36.512592] (-) TimerEvent: {}
+[36.613544] (-) TimerEvent: {}
+[36.714832] (-) TimerEvent: {}
+[36.816477] (-) TimerEvent: {}
+[36.918060] (-) TimerEvent: {}
+[37.019284] (-) TimerEvent: {}
+[37.121031] (-) TimerEvent: {}
+[37.222630] (-) TimerEvent: {}
+[37.324522] (-) TimerEvent: {}
+[37.425525] (-) TimerEvent: {}
+[37.527537] (-) TimerEvent: {}
+[37.629648] (-) TimerEvent: {}
+[37.731062] (-) TimerEvent: {}
+[37.832769] (-) TimerEvent: {}
+[37.933833] (-) TimerEvent: {}
+[38.034953] (-) TimerEvent: {}
+[38.136946] (-) TimerEvent: {}
+[38.239096] (-) TimerEvent: {}
+[38.339731] (-) TimerEvent: {}
+[38.440536] (-) TimerEvent: {}
+[38.541330] (-) TimerEvent: {}
+[38.642985] (-) TimerEvent: {}
+[38.744071] (-) TimerEvent: {}
+[38.845888] (-) TimerEvent: {}
+[38.947143] (-) TimerEvent: {}
+[39.048555] (-) TimerEvent: {}
+[39.149992] (-) TimerEvent: {}
+[39.252381] (-) TimerEvent: {}
+[39.354401] (-) TimerEvent: {}
+[39.455480] (-) TimerEvent: {}
+[39.556823] (-) TimerEvent: {}
+[39.658055] (-) TimerEvent: {}
+[39.760107] (-) TimerEvent: {}
+[39.860793] (-) TimerEvent: {}
+[39.962666] (-) TimerEvent: {}
+[40.064542] (-) TimerEvent: {}
+[40.165936] (-) TimerEvent: {}
+[40.268720] (-) TimerEvent: {}
+[40.370779] (-) TimerEvent: {}
+[40.472415] (-) TimerEvent: {}
+[40.574309] (-) TimerEvent: {}
+[40.675523] (-) TimerEvent: {}
+[40.777819] (-) TimerEvent: {}
+[40.879106] (-) TimerEvent: {}
+[40.982406] (-) TimerEvent: {}
+[41.084342] (-) TimerEvent: {}
+[41.186504] (-) TimerEvent: {}
+[41.288898] (-) TimerEvent: {}
+[41.391444] (-) TimerEvent: {}
+[41.493919] (-) TimerEvent: {}
+[41.594649] (-) TimerEvent: {}
+[41.697641] (-) TimerEvent: {}
+[41.799952] (-) TimerEvent: {}
+[41.901407] (-) TimerEvent: {}
+[42.002351] (-) TimerEvent: {}
+[42.103198] (-) TimerEvent: {}
+[42.204113] (-) TimerEvent: {}
+[42.308733] (-) TimerEvent: {}
+[42.409588] (-) TimerEvent: {}
+[42.514016] (-) TimerEvent: {}
+[42.614977] (-) TimerEvent: {}
+[42.717144] (-) TimerEvent: {}
+[42.818485] (-) TimerEvent: {}
+[42.919504] (-) TimerEvent: {}
+[43.020409] (-) TimerEvent: {}
+[43.122016] (-) TimerEvent: {}
+[43.223034] (-) TimerEvent: {}
+[43.325545] (-) TimerEvent: {}
+[43.428344] (-) TimerEvent: {}
+[43.530590] (-) TimerEvent: {}
+[43.631400] (-) TimerEvent: {}
+[43.732780] (-) TimerEvent: {}
+[43.834520] (-) TimerEvent: {}
+[43.936485] (-) TimerEvent: {}
+[44.037859] (-) TimerEvent: {}
+[44.139273] (-) TimerEvent: {}
+[44.241521] (-) TimerEvent: {}
+[44.343340] (-) TimerEvent: {}
+[44.445211] (-) TimerEvent: {}
+[44.546492] (-) TimerEvent: {}
+[44.649573] (-) TimerEvent: {}
+[44.750261] (-) TimerEvent: {}
+[44.852863] (-) TimerEvent: {}
+[44.954436] (-) TimerEvent: {}
+[45.055748] (-) TimerEvent: {}
+[45.159509] (-) TimerEvent: {}
+[45.262325] (-) TimerEvent: {}
+[45.364904] (-) TimerEvent: {}
+[45.467181] (-) TimerEvent: {}
+[45.569322] (-) TimerEvent: {}
+[45.671735] (-) TimerEvent: {}
+[45.774180] (-) TimerEvent: {}
+[45.875422] (-) TimerEvent: {}
+[45.976790] (-) TimerEvent: {}
+[46.078133] (-) TimerEvent: {}
+[46.179162] (-) TimerEvent: {}
+[46.283950] (-) TimerEvent: {}
+[46.384989] (-) TimerEvent: {}
+[46.490488] (-) TimerEvent: {}
+[46.596915] (-) TimerEvent: {}
+[46.701634] (-) TimerEvent: {}
+[46.808029] (-) TimerEvent: {}
+[46.914731] (-) TimerEvent: {}
+[47.016240] (-) TimerEvent: {}
+[47.120569] (-) TimerEvent: {}
+[47.225707] (-) TimerEvent: {}
+[47.332069] (-) TimerEvent: {}
+[47.438985] (-) TimerEvent: {}
+[47.546003] (-) TimerEvent: {}
+[47.652737] (-) TimerEvent: {}
+[47.759202] (-) TimerEvent: {}
+[47.865620] (-) TimerEvent: {}
+[47.966877] (-) TimerEvent: {}
+[48.069017] (-) TimerEvent: {}
+[48.171292] (-) TimerEvent: {}
+[48.273611] (-) TimerEvent: {}
+[48.376182] (-) TimerEvent: {}
+[48.478489] (-) TimerEvent: {}
+[48.581367] (-) TimerEvent: {}
+[48.683841] (-) TimerEvent: {}
+[48.786514] (-) TimerEvent: {}
+[48.888603] (-) TimerEvent: {}
+[48.907259] (robotic_arm_firmware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[48.932564] (robotic_arm_firmware) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[48.989133] (-) TimerEvent: {}
+[49.089895] (-) TimerEvent: {}
+[49.190852] (-) TimerEvent: {}
+[49.291739] (-) TimerEvent: {}
+[49.392459] (-) TimerEvent: {}
+[49.493885] (-) TimerEvent: {}
+[49.596055] (-) TimerEvent: {}
+[49.680880] (robotic_arm_firmware) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[49.681748] (robotic_arm_firmware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[49.696816] (-) TimerEvent: {}
+[49.798007] (-) TimerEvent: {}
+[49.898771] (-) TimerEvent: {}
+[49.999409] (-) TimerEvent: {}
+[50.101060] (-) TimerEvent: {}
+[50.202732] (-) TimerEvent: {}
+[50.303882] (-) TimerEvent: {}
+[50.342241] (robotic_arm_firmware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[50.345759] (robotic_arm_firmware) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[50.404613] (-) TimerEvent: {}
+[50.506297] (-) TimerEvent: {}
+[50.615436] (-) TimerEvent: {}
+[50.686123] (robotic_arm_firmware) StdoutLine: {'line': b'-- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[50.716254] (-) TimerEvent: {}
+[50.817754] (-) TimerEvent: {}
+[50.853713] (robotic_arm_firmware) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[50.918635] (-) TimerEvent: {}
+[51.019553] (-) TimerEvent: {}
+[51.120234] (-) TimerEvent: {}
+[51.222011] (-) TimerEvent: {}
+[51.324245] (-) TimerEvent: {}
+[51.427114] (-) TimerEvent: {}
+[51.530188] (-) TimerEvent: {}
+[51.633514] (-) TimerEvent: {}
+[51.736150] (-) TimerEvent: {}
+[51.838305] (-) TimerEvent: {}
+[51.941349] (-) TimerEvent: {}
+[52.042555] (-) TimerEvent: {}
+[52.145237] (-) TimerEvent: {}
+[52.248035] (-) TimerEvent: {}
+[52.350501] (-) TimerEvent: {}
+[52.453620] (-) TimerEvent: {}
+[52.554740] (-) TimerEvent: {}
+[52.656078] (-) TimerEvent: {}
+[52.758356] (-) TimerEvent: {}
+[52.859252] (-) TimerEvent: {}
+[52.960269] (-) TimerEvent: {}
+[53.061088] (-) TimerEvent: {}
+[53.162032] (-) TimerEvent: {}
+[53.263944] (-) TimerEvent: {}
+[53.365907] (-) TimerEvent: {}
+[53.467737] (-) TimerEvent: {}
+[53.569949] (-) TimerEvent: {}
+[53.672142] (-) TimerEvent: {}
+[53.775004] (-) TimerEvent: {}
+[53.875999] (-) TimerEvent: {}
+[53.977316] (-) TimerEvent: {}
+[54.079479] (-) TimerEvent: {}
+[54.180218] (-) TimerEvent: {}
+[54.282578] (-) TimerEvent: {}
+[54.383592] (-) TimerEvent: {}
+[54.484766] (-) TimerEvent: {}
+[54.586184] (-) TimerEvent: {}
+[54.687732] (-) TimerEvent: {}
+[54.789146] (-) TimerEvent: {}
+[54.890574] (-) TimerEvent: {}
+[54.991359] (-) TimerEvent: {}
+[55.092308] (-) TimerEvent: {}
+[55.193367] (-) TimerEvent: {}
+[55.298028] (-) TimerEvent: {}
+[55.402590] (-) TimerEvent: {}
+[55.507521] (-) TimerEvent: {}
+[55.608895] (-) TimerEvent: {}
+[55.709818] (-) TimerEvent: {}
+[55.810739] (-) TimerEvent: {}
+[55.912526] (-) TimerEvent: {}
+[56.013392] (-) TimerEvent: {}
+[56.123996] (-) TimerEvent: {}
+[56.225303] (-) TimerEvent: {}
+[56.326505] (-) TimerEvent: {}
+[56.431797] (-) TimerEvent: {}
+[56.534487] (-) TimerEvent: {}
+[56.636848] (-) TimerEvent: {}
+[56.738355] (-) TimerEvent: {}
+[56.840023] (-) TimerEvent: {}
+[56.940852] (-) TimerEvent: {}
+[57.042185] (-) TimerEvent: {}
+[57.144018] (-) TimerEvent: {}
+[57.245320] (-) TimerEvent: {}
+[57.346600] (-) TimerEvent: {}
+[57.449019] (-) TimerEvent: {}
+[57.554187] (-) TimerEvent: {}
+[57.656422] (-) TimerEvent: {}
+[57.759430] (-) TimerEvent: {}
+[57.861072] (-) TimerEvent: {}
+[57.963861] (-) TimerEvent: {}
+[58.065216] (-) TimerEvent: {}
+[58.167133] (-) TimerEvent: {}
+[58.268556] (-) TimerEvent: {}
+[58.370774] (-) TimerEvent: {}
+[58.473080] (-) TimerEvent: {}
+[58.575688] (-) TimerEvent: {}
+[58.677616] (-) TimerEvent: {}
+[58.779171] (-) TimerEvent: {}
+[58.880039] (-) TimerEvent: {}
+[58.980944] (-) TimerEvent: {}
+[59.081744] (-) TimerEvent: {}
+[59.183550] (-) TimerEvent: {}
+[59.289463] (-) TimerEvent: {}
+[59.390975] (-) TimerEvent: {}
+[59.493292] (-) TimerEvent: {}
+[59.594398] (-) TimerEvent: {}
+[59.696211] (-) TimerEvent: {}
+[59.798620] (-) TimerEvent: {}
+[59.900991] (-) TimerEvent: {}
+[60.001831] (-) TimerEvent: {}
+[60.106028] (-) TimerEvent: {}
+[60.207983] (-) TimerEvent: {}
+[60.309546] (-) TimerEvent: {}
+[60.410342] (-) TimerEvent: {}
+[60.488182] (robotic_arm_firmware) StdoutLine: {'line': b'-- Configuring done\n'}
+[60.503705] (robotic_arm_firmware) StdoutLine: {'line': b'-- Generating done\n'}
+[60.506743] (robotic_arm_firmware) StdoutLine: {'line': b'-- Build files have been written to: /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_firmware\n'}
+[60.510722] (-) TimerEvent: {}
+[60.526057] (robotic_arm_firmware) JobEnded: {'identifier': 'robotic_arm_firmware', 'rc': 'SIGINT'}
+[60.538988] (robotic_arm_kinematics) JobSkipped: {'identifier': 'robotic_arm_kinematics'}
+[60.539425] (robotic_arm_msgs) JobSkipped: {'identifier': 'robotic_arm_msgs'}
+[60.539581] (-) EventReactorShutdown: {}

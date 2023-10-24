@@ -1,0 +1,12 @@
+[1.480s] Invoking command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_firmware -- -j4 -l4
+[1.682s] Built target ament_cmake_python_symlink_robotic_arm_firmware
+[3.290s] running egg_info
+[3.292s] creating robotic_arm_firmware.egg-info
+[3.292s] writing robotic_arm_firmware.egg-info/PKG-INFO
+[3.294s] writing dependency_links to robotic_arm_firmware.egg-info/dependency_links.txt
+[3.294s] writing top-level names to robotic_arm_firmware.egg-info/top_level.txt
+[3.295s] writing manifest file 'robotic_arm_firmware.egg-info/SOURCES.txt'
+[3.481s] reading manifest file 'robotic_arm_firmware.egg-info/SOURCES.txt'
+[3.484s] writing manifest file 'robotic_arm_firmware.egg-info/SOURCES.txt'
+[3.593s] Built target ament_cmake_python_build_robotic_arm_firmware_egg
+[4.068s] Invoked command in '/home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/newtonjeri/ai_based_sorting_robot_arm/build/robotic_arm_firmware -- -j4 -l4
